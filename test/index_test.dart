@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:skynexui_responsive_stylesheet/index.dart';
+import 'package:skynexui_responsive_stylesheet/skynexui_responsive_stylesheet.dart';
 
 void main() {
   test('adds one to input values', () {
