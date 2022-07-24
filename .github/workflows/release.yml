@@ -7,7 +7,7 @@ on:
 env:
   GIT_AUTHOR_NAME: "@bumper-bot"
   GITHUB_TOKEN: ${{ secrets.GH_GLOBAL_TOKEN }}
-  NPM_TOKEN: ${{ secrets.NPM_TOKEN || secrets.GH_GLOBAL_TOKEN }}
+  NPM_TOKEN: ${{ secrets.NPM_GLOBAL_TOKEN || secrets.GH_GLOBAL_TOKEN }}
 
 jobs:
   release:
