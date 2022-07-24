@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/skynexui/responsive_stylesheet/compare/v1.0.2...v1.0.3) (2022-07-24)
+
+
+### Bug Fixes
+
+* broken coisos ([6be0d53](https://github.com/skynexui/responsive_stylesheet/commit/6be0d53f38aa4377beeadeb7742926f8624fb72d))
+
 ## [1.0.2](https://github.com/skynexui/responsive_stylesheet/compare/v1.0.1...v1.0.2) (2022-07-24)
 
 
