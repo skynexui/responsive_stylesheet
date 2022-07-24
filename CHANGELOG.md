@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.0.4...v1.1.0) (2022-07-24)
+
+
+### Features
+
+* minor fix to relase flutter ([f2dac31](https://github.com/skynexui/responsive_stylesheet/commit/f2dac317e867c04c088f055c5248ea7cd9fdb46b))
+
 ## [1.0.4](https://github.com/skynexui/responsive_stylesheet/compare/v1.0.3...v1.0.4) (2022-07-24)
 
 
