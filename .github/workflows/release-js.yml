@@ -1,8 +1,7 @@
-name: Release
+name: Dart/Flutter - Release Package
 on:
-  push:
-    branches:
-      - main
+  release:
+    types: [published]
 
 env:
   GIT_AUTHOR_NAME: "@bumper-bot"
