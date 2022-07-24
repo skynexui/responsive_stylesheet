@@ -60,7 +60,7 @@ function parseStyles({ mediaResultBy, stateResultBy }: any): any {
   }
 }
 
-export default function parseStyleSheet(styleSheet: unknown, theme: unknown, uniqueId: string = 'unique-id'): any {
+export default function parseStyleSheet(styleSheet: unknown, uniqueId: string = 'unique-id'): any {
     const mediaResultBy = {
       xs: `@media (min-width: ${breakpoints.xs}px)`,
       sm: `@media (min-width: ${breakpoints.sm}px)`,
