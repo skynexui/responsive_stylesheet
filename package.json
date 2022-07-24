@@ -20,7 +20,8 @@
     "build": "rollup -c",
     "export:types": "tsc",
     "release": "semantic-release",
-    "release:github_registry": "node ./scripts/publishToGHRegistry.js"
+    "release:github_registry": "node ./scripts/publishToGHRegistry.js",
+    "release:flutter": "yarn clean && dart pub publish --force"
   },
   "devDependencies": {
     "@babel/core": "7.16.0",
