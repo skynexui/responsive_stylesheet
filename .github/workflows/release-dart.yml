@@ -1,5 +1,4 @@
-name: Dart - Publish plugin
-
+name: Dart/Flutter - Release Package
 on:
   release:
     types: [published]
