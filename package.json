@@ -16,7 +16,8 @@
     "build:watch": "rollup -cw",
     "build": "rollup -c",
     "export:types": "tsc",
-    "release": "semantic-release"
+    "release": "semantic-release",
+    "release:github_registry": "node ./scripts/publishToGHRegistry.js"
   },
   "devDependencies": {
     "@babel/core": "7.16.0",
