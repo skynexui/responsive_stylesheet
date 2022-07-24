@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.1.0...v1.2.0) (2022-07-24)
+
+
+### Features
+
+* export breakpoints to users of the lib ([ecdbff3](https://github.com/skynexui/responsive_stylesheet/commit/ecdbff34d9e0494735bbdae33dbe480bfe347e8f))
+
 # [1.1.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.0.4...v1.1.0) (2022-07-24)
 
 
