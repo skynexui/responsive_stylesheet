@@ -11,7 +11,7 @@ env:
 
 jobs:
   release:
-    name: Release
+    name: Release [JS NPM & GitHub Registry]
     runs-on: ubuntu-18.04
     steps:
       - name: Checkout

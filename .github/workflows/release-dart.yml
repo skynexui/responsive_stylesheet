@@ -5,8 +5,8 @@ on:
     types: [published]
 
 jobs:
-  publish:
-
+  release:
+    name: Release [Dart/Flutter]
     runs-on: ubuntu-latest
 
     steps:
