@@ -1,4 +1,4 @@
-name: Release
+name: JS/React - Release Package
 on:
   push:
     branches:
