@@ -2,7 +2,8 @@
   "name": "@skynexui/responsive_stylesheet",
   "version": "1.0.1",
   "license": "MIT",
-  "types": "dist/components.d.ts",
+  "private": false,
+  "types": "dist/index.d.ts",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
