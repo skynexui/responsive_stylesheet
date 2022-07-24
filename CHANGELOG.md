@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/skynexui/responsive_stylesheet/compare/v1.0.1...v1.0.2) (2022-07-24)
+
+
+### Bug Fixes
+
+* minor changes in packagejson ([96e257c](https://github.com/skynexui/responsive_stylesheet/commit/96e257c11c7bf853c2c9ca0288e7a21df08f1e5d))
+
 ## [1.0.1](https://github.com/skynexui/responsive_stylesheet/compare/v1.0.0...v1.0.1) (2022-07-24)
 
 
