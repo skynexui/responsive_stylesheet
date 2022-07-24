@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/skynexui/responsive_stylesheet/compare/v1.0.3...v1.0.4) (2022-07-24)
+
+
+### Bug Fixes
+
+* create-new-release ([2fe286b](https://github.com/skynexui/responsive_stylesheet/commit/2fe286bba652e78662a5f4cf47a272f7439ee7f3))
+
 ## [1.0.3](https://github.com/skynexui/responsive_stylesheet/compare/v1.0.2...v1.0.3) (2022-07-24)
 
 
