@@ -8,6 +8,10 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skynexui/responsive_stylesheet.git"
+  },
   "scripts": {
     "build:watch": "rollup -cw",
     "build": "rollup -c",
