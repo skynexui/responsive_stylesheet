@@ -1,6 +1,6 @@
 {
   "name": "@skynexui/responsive_stylesheet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "types": "dist/components.d.ts",
   "main": "dist/cjs/index.js",
