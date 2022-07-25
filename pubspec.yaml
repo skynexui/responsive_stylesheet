@@ -1,6 +1,6 @@
 name: skynexui_responsive_stylesheet
 description: With this package you have some utils to handle styles in Flutter and React
-version: 1.5.2
+version: 1.5.3
 homepage: https://github.com/skynexui/responsive_stylesheet
 
 environment:

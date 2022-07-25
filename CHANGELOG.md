@@ -1,3 +1,10 @@
+## [1.5.3](https://github.com/skynexui/responsive_stylesheet/compare/v1.5.2...v1.5.3) (2022-07-25)
+
+
+### Bug Fixes
+
+* minor bump in ci flutter ([5263a0c](https://github.com/skynexui/responsive_stylesheet/commit/5263a0c006a2fe7a76df364ff58850a4691f9977))
+
 ## [1.5.2](https://github.com/skynexui/responsive_stylesheet/compare/v1.5.1...v1.5.2) (2022-07-25)
 
 
