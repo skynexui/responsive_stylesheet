@@ -1,3 +1,11 @@
+# [1.5.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.4.0...v1.5.0) (2022-07-25)
+
+
+### Features
+
+* release flutter ([da5e750](https://github.com/skynexui/responsive_stylesheet/commit/da5e7500b46d6af2e1297b4dd8797c252b8d5cb5))
+* release flutter ([f0ba244](https://github.com/skynexui/responsive_stylesheet/commit/f0ba24481e6f88d1229bdcb0cf1d658f211d6836))
+
 # [1.4.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.3.0...v1.4.0) (2022-07-25)
 
 
