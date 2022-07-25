@@ -2,48 +2,50 @@ import parseStyleSheet from "./parse-stylesheet";
 
 describe('parseStyleSheet()', () => {
   describe('when receive default stylesheet rules', () => {
-    it('receiving only 1 stylesheet rule', () => {
-      const input = {
-        backgroundColor: 'red',
-      };
-
-      expect(parseStyleSheet(input)).toEqual({
+    it('and it has only 1 stylesheet rule', () => {
+      const input = parseStyleSheet({
         backgroundColor: 'red',
       });
+
+      expect(input).toEqual({ backgroundColor: 'red' });
     });
-    it('receiving only 2 stylesheet rules', () => {
-      const input = {
-        backgroundColor: 'red',
-        color: 'white',
-      };
-
-      expect(parseStyleSheet(input)).toEqual({
+    it('and it has only 2 stylesheet rules', () => {
+      const input = parseStyleSheet({
         backgroundColor: 'red',
         color: 'white',
       });
+
+      expect(input).toEqual({ backgroundColor: 'red', color: 'white' });
+    });
+    it('and it has only a stylesheet rule vertical and horizontal', () => {
+      const input = parseStyleSheet({
+        paddingVertical: '10px',
+      });
+
+      expect(input).toMatchSnapshot();
     });
   });
   describe('when receive responsive stylesheet rules', () => {
-    it('receiving only 1 stylesheet rule with 1 breakpoint', () => {
-      const input = {
+    it('and it has only 1 stylesheet rule with 1 breakpoint', () => {
+      const input = parseStyleSheet({
         backgroundColor: {
           xs: 'red',
         },
-      };
+      });
 
-      expect(parseStyleSheet(input)).toMatchSnapshot();
+      expect(input).toMatchSnapshot();
     });
-    it('receiving only 1 stylesheet rule with 2 breakpoints', () => {
-      const input = {
+    it('and it has only 1 stylesheet rule with 2 breakpoints', () => {
+      const input = parseStyleSheet({
         backgroundColor: {
           xs: 'red',
           md: 'black',
         },
-      };
-      expect(parseStyleSheet(input)).toMatchSnapshot();
+      });
+      expect(input).toMatchSnapshot();
     });
-    it('receiving only a stylesheet rule vertical and horizontal with 2 breakpoints', () => {
-      const input = {
+    it('and it has only a stylesheet rule vertical and horizontal with 2 breakpoints', () => {
+      const input = parseStyleSheet({
         paddingVertical: {
           xs: '10px',
           md: '20px',
@@ -52,9 +54,9 @@ describe('parseStyleSheet()', () => {
           xs: 'red',
           lg: 'black',
         },
-      };
+      });
 
-      expect(parseStyleSheet(input)).toMatchSnapshot();
+      expect(input).toMatchSnapshot();
     });
   });
 });

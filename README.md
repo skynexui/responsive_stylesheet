@@ -4,4 +4,25 @@
 
 ![Downloads](https://img.shields.io/npm/dw/@skynexui/responsive_stylesheet?color=orange) ![Current Version](https://img.shields.io/npm/v/@skynexui/responsive_stylesheet?color=green&label=version&cache=1) [![Flutter Package](https://img.shields.io/badge/skynexui_responsive_stylesheet-fluttter-blue)](https://pub.dev/packages/skynexui_responsive_stylesheet) [![NPM Package](https://img.shields.io/badge/@skynexui/responsive_stylesheet-npm-red)](https://www.npmjs.com/package/@skynexui/responsive_stylesheet)
 
-With this package you have some utils to handle styles in Flutter and React
+It's a set of common utility strategies to work with responsive styles with CSS in JS and Flutter
+
+## parseStyleSheet()
+
+```sh
+import { parseStyleSheet } from '@skynexui/responsive_stylesheet';
+
+parseStyleSheet({
+  backgroundColor: 'xs'
+});
+```
+- Result:
+```sh
+Object {
+  "@media (min-width: 0px)": Object {
+    "backgroundColor": "red",
+  },
+  "@media (min-width: 768px)": Object {
+    "backgroundColor": "black",
+  },
+}
+```
