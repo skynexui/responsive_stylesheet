@@ -6,7 +6,13 @@
 
 It's a set of common utility strategies to work with responsive styles with CSS in JS and Flutter
 
-## parseStyleSheet()
+## Summary
+- Dart/Flutter
+- JavaScript/React
+
+
+## JavaScript/React
+### parseStyleSheet()
 
 ```sh
 import { parseStyleSheet } from '@skynexui/responsive_stylesheet';
@@ -26,3 +32,7 @@ Object {
   },
 }
 ```
+
+## Dart/Flutter
+
+- ...
