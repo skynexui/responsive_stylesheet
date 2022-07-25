@@ -7,31 +7,14 @@
 It's a set of common utility strategies to work with responsive styles with CSS in JS and Flutter
 
 ## Summary
-- Dart/Flutter
-- JavaScript/React
+- [Dart/Flutter](#dartflutter)
+- [JavaScript/React](JavaScript/React)
 
 ## JavaScript/React
-### parseStyleSheet()
 
-```sh
-import { parseStyleSheet } from '@skynexui/responsive_stylesheet';
+- [Check the examples to see the usage](https://github.com/skynexui/responsive_stylesheet/tree/main/examples/with_react_sample)
 
-parseStyleSheet({
-  backgroundColor: 'xs'
-});
-```
-- Result:
-```sh
-Object {
-  "@media (min-width: 0px)": Object {
-    "backgroundColor": "red",
-  },
-  "@media (min-width: 768px)": Object {
-    "backgroundColor": "black",
-  },
-}
-```
 
 ## Dart/Flutter
 
-- ...
+- [Check the examples to see the usage](https://github.com/skynexui/responsive_stylesheet/tree/main/examples/with_flutter_sample)
