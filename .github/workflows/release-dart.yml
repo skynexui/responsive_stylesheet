@@ -23,7 +23,10 @@ jobs:
     - name: Setup Pub Credentials
       shell: bash
       env:
-        DARTPUB_GLOBAL_CREDENTIALS: ${{ secrets.DARTPUB_GLOBAL_CREDENTIALS }}
+        PUB_DEV_PUBLISH_ACCESS_TOKEN: ${{ secrets.PUB_DEV_PUBLISH_ACCESS_TOKEN }}
+        PUB_DEV_PUBLISH_REFRESH_TOKEN: ${{ secrets.PUB_DEV_PUBLISH_REFRESH_TOKEN }}
+        PUB_DEV_PUBLISH_TOKEN_ENDPOINT: ${{ secrets.PUB_DEV_PUBLISH_TOKEN_ENDPOINT }}
+        PUB_DEV_PUBLISH_EXPIRATION: ${{ secrets.PUB_DEV_PUBLISH_EXPIRATION }}
       run: |
         sh ./scripts/pub_login.sh
         rm -rf examples
