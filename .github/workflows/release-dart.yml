@@ -3,39 +3,30 @@ on:
   release:
     types: [published]
 
+env:
+  PUB_DEV_PUBLISH_ACCESS_TOKEN: ${{ secrets.PUB_DEV_PUBLISH_ACCESS_TOKEN }}
+  PUB_DEV_PUBLISH_REFRESH_TOKEN: ${{ secrets.PUB_DEV_PUBLISH_REFRESH_TOKEN }}
+  PUB_DEV_PUBLISH_TOKEN_ENDPOINT: ${{ secrets.PUB_DEV_PUBLISH_TOKEN_ENDPOINT }}
+  PUB_DEV_PUBLISH_EXPIRATION: ${{ secrets.PUB_DEV_PUBLISH_EXPIRATION }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    container:
+      image:  google/dart:latest
     steps:
     - uses: actions/checkout@v1
-    - uses: actions/setup-node@v2
-      with:
-        node-version: '14'
-    - uses: actions/setup-java@v2
-      with:
-        distribution: 'zulu'
-        java-version: '11'
-    - uses: subosito/flutter-action@v1
-      with:
-        flutter-version: '3.0.3'
-    - name: Install dependencies
-      run: flutter pub get
-    - name: Setup Pub Credentials
-      shell: bash
-      env:
-        PUB_DEV_PUBLISH_ACCESS_TOKEN: ${{ secrets.PUB_DEV_PUBLISH_ACCESS_TOKEN }}
-        PUB_DEV_PUBLISH_REFRESH_TOKEN: ${{ secrets.PUB_DEV_PUBLISH_REFRESH_TOKEN }}
-        PUB_DEV_PUBLISH_TOKEN_ENDPOINT: ${{ secrets.PUB_DEV_PUBLISH_TOKEN_ENDPOINT }}
-        PUB_DEV_PUBLISH_EXPIRATION: ${{ secrets.PUB_DEV_PUBLISH_EXPIRATION }}
-      run: |
-        sh ./scripts/pub_login.sh
-        rm -rf examples
-        rm -rf docs
-        git config --global user.email "13791385+omariosouto@users.noreply.github.com"
-        git config --global user.name "CI Bot - DevSoutinho"
-        git add .
-        git commit -m "forcing delete"
-    - name: Check Publish Warnings
-      run: dart pub publish --dry-run
-    - name: Publish Package
-      run: dart pub publish -f
+    - name: Setup credentials
+      run: | 
+        mkdir -p ~/.pub-cache 
+        cat <<EOF > ~/.pub-cache/credentials.json
+        {
+          "accessToken":"${{ secrets.PUB_DEV_PUBLISH_ACCESS_TOKEN }}",
+          "refreshToken":"${{ secrets.PUB_DEV_PUBLISH_REFRESH_TOKEN }}",
+          "tokenEndpoint":"https://accounts.google.com/o/oauth2/token",
+          "scopes": [ "openid", "https://www.googleapis.com/auth/userinfo.email" ],
+          "expiration": ${{ secrets.PUB_DEV_PUBLISH_EXPIRATION }}
+        }
+        EOF
+    - name: Publish package
+      run: pub publish -f
