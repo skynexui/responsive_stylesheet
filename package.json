@@ -16,6 +16,9 @@
   },
   "scripts": {
     "test": "jest",
+    "test:flutter": "flutter test",
+    "lint": "echo 'implement me'",
+    "lint:flutter": "dart analyze .",
     "test:watch": "yarn test --watch",
     "build:watch": "rollup -cw",
     "build": "rollup -c",
