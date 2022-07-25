@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parseStyleSheet() when receive responsive stylesheet rules receiving only 1 stylesheet rule with 1 breakpoint 1`] = `
+Object {
+  "@media (min-width: 0px)": Object {
+    "backgroundColor": "red",
+  },
+}
+`;
+
+exports[`parseStyleSheet() when receive responsive stylesheet rules receiving only 1 stylesheet rule with 2 breakpoints 1`] = `
+Object {
+  "@media (min-width: 0px)": Object {
+    "backgroundColor": "red",
+  },
+  "@media (min-width: 768px)": Object {
+    "backgroundColor": "black",
+  },
+}
+`;
+
+exports[`parseStyleSheet() when receive responsive stylesheet rules receiving only a stylesheet rule vertical and horizontal with 2 breakpoints 1`] = `
+Object {
+  "@media (min-width: 0px)": Object {
+    "backgroundColor": "red",
+    "padding-bottom": "10px",
+    "padding-top": "10px",
+  },
+  "@media (min-width: 768px)": Object {
+    "padding-bottom": "20px",
+    "padding-top": "20px",
+  },
+  "@media (min-width: 992px)": Object {
+    "backgroundColor": "black",
+  },
+}
+`;

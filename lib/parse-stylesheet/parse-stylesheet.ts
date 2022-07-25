@@ -44,11 +44,16 @@ function parseStyles({ mediaResultBy, stateResultBy }: any): any {
         ...acc,
         ...Object.keys(mediaResultBy).reduce((mediaQuery, breakpoint) => {
           const currentMediaQuery = mediaResultBy[breakpoint];
+          const currentRuleValue = styleSheetValue[breakpoint];
+          if(!currentRuleValue) return mediaQuery;
+
+          const rule = parseStyleSheetRule(styleSheetKey, currentRuleValue);
+
           return {
             ...mediaQuery,
             [currentMediaQuery]: {
               ...acc[currentMediaQuery],
-              [styleSheetKey]: styleSheetValue[breakpoint],
+              ...rule,
             }
           };
         }, {}),
