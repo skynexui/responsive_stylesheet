@@ -36,6 +36,6 @@ jobs:
         git add .
         git commit -m "forcing delete"
     - name: Check Publish Warnings
-      run: pub publish --dry-run
+      run: dart pub publish --dry-run
     - name: Publish Package
-      run: pub publish -f
+      run: dart pub publish -f
