@@ -1,3 +1,10 @@
+## [1.5.4](https://github.com/skynexui/responsive_stylesheet/compare/v1.5.3...v1.5.4) (2022-07-25)
+
+
+### Bug Fixes
+
+* small release on flutter ([0af903c](https://github.com/skynexui/responsive_stylesheet/commit/0af903c97044eeb2fde1a291c4f9f8a43999f4b3))
+
 ## [1.5.3](https://github.com/skynexui/responsive_stylesheet/compare/v1.5.2...v1.5.3) (2022-07-25)
 
 
