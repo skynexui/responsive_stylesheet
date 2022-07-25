@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.2.0...v1.3.0) (2022-07-25)
+
+
+### Features
+
+* adjust new release ([4930e70](https://github.com/skynexui/responsive_stylesheet/commit/4930e70dde5a5dca86e8639ca325efa595a50b1b))
+
 # [1.2.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.1.0...v1.2.0) (2022-07-24)
 
 
