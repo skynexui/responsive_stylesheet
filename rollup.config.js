@@ -73,7 +73,7 @@ export default [
     ],
   },
   {
-    input: 'types/index.d.ts',
+    input: 'types/lib/index.d.ts',
     output: [{ file: packageJson.types, format: 'esm' }],
     external: [/\.css$/],
     plugins: [
@@ -82,7 +82,7 @@ export default [
           {
             find: '@lib',
             replacement: () => {
-              return path.resolve(__dirname, 'types/');
+              return path.resolve(__dirname, 'types', 'lib');
             },
           },
         ],
