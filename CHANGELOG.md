@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.3.0...v1.4.0) (2022-07-25)
+
+
+### Features
+
+* new release for flutter also ([20145e5](https://github.com/skynexui/responsive_stylesheet/commit/20145e5adf48bd4a4a5bd767e7d5424e41d7ae41))
+
 # [1.3.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.2.0...v1.3.0) (2022-07-25)
 
 
