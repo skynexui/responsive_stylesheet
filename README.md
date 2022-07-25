@@ -8,7 +8,7 @@ It's a set of common utility strategies to work with responsive styles with CSS 
 
 ## Summary
 - [Dart/Flutter](#dartflutter)
-- [JavaScript/React](JavaScript/React)
+- [JavaScript/React](#javascriptreact)
 
 ## JavaScript/React
 
