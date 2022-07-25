@@ -17,7 +17,7 @@ jobs:
         java-version: '11'
     - uses: subosito/flutter-action@v1
       with:
-        flutter-version: '2.8.0'
+        flutter-version: '2.17.5'
     - name: Install dependencies
       run: flutter pub get
     - name: Setup Pub Credentials
