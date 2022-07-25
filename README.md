@@ -10,7 +10,6 @@ It's a set of common utility strategies to work with responsive styles with CSS 
 - Dart/Flutter
 - JavaScript/React
 
-
 ## JavaScript/React
 ### parseStyleSheet()
 
