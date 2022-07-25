@@ -1,3 +1,10 @@
+## [1.5.5](https://github.com/skynexui/responsive_stylesheet/compare/v1.5.4...v1.5.5) (2022-07-25)
+
+
+### Bug Fixes
+
+* release a new minor test version ([0d300bb](https://github.com/skynexui/responsive_stylesheet/commit/0d300bb376da6c46322e49fb35bc585d29b049ce))
+
 ## [1.5.4](https://github.com/skynexui/responsive_stylesheet/compare/v1.5.3...v1.5.4) (2022-07-25)
 
 
