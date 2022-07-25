@@ -1,5 +1,7 @@
 library responsive_stylesheet;
 
+export 'responsive/responsive.dart';
+
 /// A Calculator.
 class Calculator {
   /// Returns [value] plus 1.

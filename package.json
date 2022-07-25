@@ -27,7 +27,9 @@
     "clean": "flutter clean && yarn prebuild",
     "release": "semantic-release",
     "release:github_registry": "node ./scripts/publishToGHRegistry.js",
-    "release:flutter": "yarn clean && dart pub publish --force"
+    "release:flutter": "yarn clean && dart pub publish --force",
+    "bump:flutter": "node ./scripts/bumpFlutter.js",
+    "postversion": "yarn bump:flutter && git add ."
   },
   "devDependencies": {
     "@babel/core": "7.16.0",
