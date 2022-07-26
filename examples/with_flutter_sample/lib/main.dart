@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:skynexui_responsive_stylesheet/responsive/responsive.dart';
+import 'package:skynexui_responsive_stylesheet/skynexui_responsive_stylesheet.dart';
 
 void main() {
   runApp(const MyApp());
