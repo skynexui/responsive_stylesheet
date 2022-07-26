@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/skynexui/responsive_stylesheet/compare/v1.6.0...v1.6.1) (2022-07-26)
+
+
+### Bug Fixes
+
+* minor update in CI env ([708054b](https://github.com/skynexui/responsive_stylesheet/commit/708054bafe901396ee61c0c2ea74e134940675b9))
+
 # [1.6.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.5.5...v1.6.0) (2022-07-26)
 
 
