@@ -1,3 +1,10 @@
+## [1.6.3](https://github.com/skynexui/responsive_stylesheet/compare/v1.6.2...v1.6.3) (2022-07-26)
+
+
+### Bug Fixes
+
+* bump a small version to trigger the entire CI ([186a563](https://github.com/skynexui/responsive_stylesheet/commit/186a563c639774137be12ed1ee8b5773486e8bb9))
+
 ## [1.6.2](https://github.com/skynexui/responsive_stylesheet/compare/v1.6.1...v1.6.2) (2022-07-26)
 
 
