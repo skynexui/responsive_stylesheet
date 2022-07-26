@@ -86,7 +86,7 @@ yarn add @skynexui/responsive_stylesheet
 
 <!-- TODO: Auto generate this section based in the files -->
 
-| Feature name                                                 | Dart/Flutter | JavaScript/React | 
+| Feature.                                                     | Dart/Flutter | JavaScript/React | 
 | ---                                                          | ---              | ---          |
 | [Responsive](./lib/responsive//responsive.md)                | ✅               | ❌            |
 | [breakpoints](./lib/breakpoints/breakpoints.md)              | ✅               | ✅            |
@@ -94,10 +94,7 @@ yarn add @skynexui/responsive_stylesheet
 | parseStylesheet                                              | 🚧               | ✅            |
 | BreakpointsProvider                                          | 🚧               | 🚧            |
 
-> - ✅ Ready
-> - 🚧 WIP 
-> - ❌ Not in roadmap by now
-> - 🛣 Inside roadmap
+> ✅ Ready, 🚧 WIP, ❌ Not in roadmap by now, 🗺️ Inside roadmap
 
 ## License
 
