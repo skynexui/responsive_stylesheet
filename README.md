@@ -86,13 +86,13 @@ yarn add @skynexui/responsive_stylesheet
 
 <!-- TODO: Auto generate this section based in the files -->
 
-| Feature name             | JavaScript/React | Dart/Flutter | 
-| ---                      | ---              | ---          |
-| breakpoints              | ✅               | ✅            |
-| parseStylesheet          | ✅               | ❌            |
-| GridItem                 | ❌               | ✅            |
-| Responsive               | ❌               | ✅            |
-| BreakpointsProvider      | ❌               | ❌            |
+| Feature name                                                 | Dart/Flutter | JavaScript/React | 
+| ---                                                          | ---              | ---          |
+| [Responsive](./lib/responsive//responsive.md)                | ✅               | ❌            |
+| [breakpoints](./lib/breakpoints/breakpoints.md)              | ✅               | ✅            |
+| [GridItem](./lib/grid-item//grid_item.md)                    | ✅               | ❌            |
+| parseStylesheet                                              | ❌               | ✅            |
+| BreakpointsProvider                                          | ❌               | ❌            |
 
 
 ## License
