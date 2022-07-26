@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   // [NextJS Reset]
@@ -37,6 +37,5 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
   }
 `;
-
 
 export default GlobalStyle;

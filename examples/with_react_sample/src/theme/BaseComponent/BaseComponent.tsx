@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import StyleSheet from '@src/theme/StyleSheet';
+import StyleSheet from "@src/theme/StyleSheet";
 import { parseStyleSheet } from "@skynexui/responsive_stylesheet";
 
 const StyledBaseComponent = styled.div<any>`
@@ -15,15 +15,17 @@ interface BaseComponentProps {
   styleSheet?: StyleSheet;
   [key: string]: any;
 }
-const BaseComponent = React.forwardRef<any, BaseComponentProps>((props, ref) => {
-  const id = React.useId().replaceAll(':', '');
+const BaseComponent = React.forwardRef<any, BaseComponentProps>(
+  (props, ref) => {
+    const id = React.useId().replaceAll(":", "");
 
-  return (
-    <StyledBaseComponent ref={ref} $uniqueId={id} className={id} {...props} />
-  );
-})
+    return (
+      <StyledBaseComponent ref={ref} $uniqueId={id} className={id} {...props} />
+    );
+  }
+);
 BaseComponent.defaultProps = {
   styleSheet: {},
-}
+};
 
 export default BaseComponent;

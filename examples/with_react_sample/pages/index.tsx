@@ -8,17 +8,17 @@ export default function HomeScreen() {
       <Box
         styleSheet={{
           flex: 1,
-          alignItems: 'center',
-          justifyContent: 'center',
-          fontFamily: 'sans-serif',
-          color: 'white',
+          alignItems: "center",
+          justifyContent: "center",
+          fontFamily: "sans-serif",
+          color: "white",
           backgroundColor: {
-            xs: 'red',
-            sm: 'orange',
-            md: 'green',
-            lg: 'blue',
-            xl: 'purple',
-          }
+            xs: "#ff9090",
+            sm: "#ffd586",
+            md: "#7fff7f",
+            lg: "#7d7dff",
+            xl: "#ff86ff",
+          },
         }}
       >
         HomeScreen
