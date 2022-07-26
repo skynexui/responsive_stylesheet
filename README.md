@@ -12,7 +12,7 @@ It's a set of common utility strategies to work with responsive styles with CSS 
 - [Dart/Flutter](#dartflutter)
 - [JavaScript/React](#javascriptreact)
 
-## Dart/Flutter
+## Dart/Flutter 🐦
 
 - [Check the examples to see the usage](https://github.com/skynexui/responsive_stylesheet/blob/main/examples/with_flutter_sample/lib/main.dart#L43)
 
@@ -42,7 +42,7 @@ body: Container(
 > [Learn more looking at the code example](https://github.com/skynexui/responsive_stylesheet/blob/main/examples/with_flutter_sample/lib/main.dart#L43)
 
 
-## JavaScript/React
+## JavaScript/React ⚛
 
 - [Check the examples to see the usage](https://github.com/skynexui/responsive_stylesheet/tree/main/examples/with_react_sample)
 
