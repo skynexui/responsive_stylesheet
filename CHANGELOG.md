@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.5.5...v1.6.0) (2022-07-26)
+
+
+### Features
+
+* add javascript tests ([a8f0632](https://github.com/skynexui/responsive_stylesheet/commit/a8f0632f173cf1fda2dbddc49bdd5f0dd3a7f7e1))
+
 ## [1.5.5](https://github.com/skynexui/responsive_stylesheet/compare/v1.5.4...v1.5.5) (2022-07-25)
 
 
