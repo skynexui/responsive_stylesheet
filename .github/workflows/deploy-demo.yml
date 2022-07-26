@@ -6,12 +6,12 @@ on:
 
 env:
   GH_GLOBAL_TOKEN: ${{ secrets.GH_GLOBAL_TOKEN }}
-  VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+  VERCEL_TOKEN_GLOBAL: ${{ secrets.VERCEL_TOKEN_GLOBAL }}
   VERCEL_PROJECT_ID__DEMO_FLUTTER: ${{ secrets.VERCEL_PROJECT_ID__DEMO_FLUTTER }}
 
 jobs:
-  release_app_web:
+  release_demo_flutterweb:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
