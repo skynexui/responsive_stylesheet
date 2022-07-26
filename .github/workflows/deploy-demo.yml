@@ -1,4 +1,4 @@
-name: CD - Continous Delivery
+name: CD - Continous Delivery (DEMOS)
 
 on:
   push:
