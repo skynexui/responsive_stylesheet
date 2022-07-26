@@ -6,7 +6,7 @@
 import 'package:skynexui_responsive_stylesheet/skynexui_responsive_stylesheet.dart';
 ```
 ```js
-N/A
+`Comming Soon...`
 ```
 
 
@@ -42,4 +42,4 @@ class WidgetWithResponsiveOutput extends StatelessWidget {
 
 ### JavaScript
 
-- N/A
+- `Comming Soon...`
