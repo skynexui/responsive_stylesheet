@@ -24,6 +24,8 @@ flutter pub add skynexui_responsive_stylesheet
 
 ### Demo
 
+- [Check it out](https://responsive-stylesheet-flutter-demo.vercel.app/)
+
 ![CleanShot 2022-07-25 at 21 56 52](https://user-images.githubusercontent.com/13791385/180899758-5f2b530f-a2c1-4842-9ce9-8f5b0ad15fea.gif)
 
 ```dart
@@ -52,7 +54,7 @@ yarn add @skynexui/responsive_stylesheet
 
 ### Demo
 
-- WIP
+- [Check it out](https://responsive-stylesheet-react-demo.vercel.app/)
 
 
 # Docs
