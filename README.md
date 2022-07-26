@@ -10,11 +10,10 @@ It's a set of common utility strategies to work with responsive styles with CSS 
 - [Dart/Flutter](#dartflutter)
 - [JavaScript/React](#javascriptreact)
 
-## JavaScript/React
-
-- [Check the examples to see the usage](https://github.com/skynexui/responsive_stylesheet/tree/main/examples/with_react_sample)
-
-
 ## Dart/Flutter
 
 - [Check the examples to see the usage](https://github.com/skynexui/responsive_stylesheet/tree/main/examples/with_flutter_sample)
+
+## JavaScript/React
+
+- [Check the examples to see the usage](https://github.com/skynexui/responsive_stylesheet/tree/main/examples/with_react_sample)

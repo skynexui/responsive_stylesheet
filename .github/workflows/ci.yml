@@ -1,8 +1,5 @@
-name: CI - Test
+name: CI - Continuous Integration
 on:
-  push:
-    branches:
-      - main
   pull_request:
     types: [opened, synchronize]
 
