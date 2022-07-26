@@ -1,3 +1,11 @@
+## [1.6.4](https://github.com/skynexui/responsive_stylesheet/compare/v1.6.3...v1.6.4) (2022-07-26)
+
+
+### Bug Fixes
+
+* ensure that flutter package is ready to deploy ([bf23801](https://github.com/skynexui/responsive_stylesheet/commit/bf23801edd9cded151373307e729fc53d50060db))
+* flutter deploy ([0b9d20a](https://github.com/skynexui/responsive_stylesheet/commit/0b9d20a119c3f4925e7ae618c1c9e5ed26407ec6))
+
 ## [1.6.3](https://github.com/skynexui/responsive_stylesheet/compare/v1.6.2...v1.6.3) (2022-07-26)
 
 
