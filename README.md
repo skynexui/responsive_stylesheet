@@ -94,6 +94,10 @@ yarn add @skynexui/responsive_stylesheet
 | parseStylesheet                                              | 🚧               | ✅            |
 | BreakpointsProvider                                          | 🚧               | 🚧            |
 
+> - ✅ Ready
+> - 🚧 WIP 
+> - ❌ Not in roadmap by now
+> - 🛣 Inside roadmap
 
 ## License
 
