@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.6.5...v1.7.0) (2022-07-26)
+
+
+### Features
+
+* add grid item component ([1e5172a](https://github.com/skynexui/responsive_stylesheet/commit/1e5172a94f338b981956882af1a2dd30e0853847))
+
 ## [1.6.5](https://github.com/skynexui/responsive_stylesheet/compare/v1.6.4...v1.6.5) (2022-07-26)
 
 
