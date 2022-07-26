@@ -15,9 +15,9 @@ export default function HomeScreen() {
           backgroundColor: {
             xs: "#ff9090",
             sm: "#ffd586",
-            md: "#7fff7f",
+            md: "#aaffaa",
             lg: "#7d7dff",
-            xl: "#ff86ff",
+            xl: "#f33cb3",
           },
         }}
       >
