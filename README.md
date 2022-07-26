@@ -4,13 +4,22 @@
 
 [<img width="150px" src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" />](https://vercel.com/?utm_source=skynexui&utm_campaign=oss)
 
-![Downloads](https://img.shields.io/npm/dw/@skynexui/responsive_stylesheet?color=orange) ![Current Version](https://img.shields.io/npm/v/@skynexui/responsive_stylesheet?color=success&label=version&cache=1) [![Flutter Package](https://img.shields.io/badge/skynexui__responsive__stylesheet-fluttter-blue)](https://pub.dev/packages/skynexui_responsive_stylesheet) [![NPM Package](https://img.shields.io/badge/@skynexui/responsive__stylesheet-npm-red)](https://www.npmjs.com/package/@skynexui/responsive_stylesheet)
+[![licence mit](https://img.shields.io/badge/licence-MIT-blueviolet.svg)](LICENSE) ![Downloads](https://img.shields.io/npm/dw/@skynexui/responsive_stylesheet?color=orange) ![Current Version](https://img.shields.io/npm/v/@skynexui/responsive_stylesheet?color=success&label=version&cache=1) [![Flutter Package](https://img.shields.io/badge/skynexui__responsive__stylesheet-fluttter-blue)](https://pub.dev/packages/skynexui_responsive_stylesheet) [![NPM Package](https://img.shields.io/badge/@skynexui/responsive__stylesheet-npm-red)](https://www.npmjs.com/package/@skynexui/responsive_stylesheet)
 
 It's a set of common utility strategies to work with responsive styles with CSS in JS and Flutter
+
+## Contributing
+
+Want to contribute with the project? [Check our guide with how and our code guidelines](CONTRIBUTING.md)
+
+## How to report a bug?
+
+Please just open an issue with a link do a small reproduction of the bug and let's discuss about it
 
 ## Summary
 - [Dart/Flutter](#dartflutter)
 - [JavaScript/React](#javascriptreact)
+- [Docs](#docs)
 
 ## Dart/Flutter 🐦
 
@@ -72,3 +81,19 @@ yarn add @skynexui/responsive_stylesheet
 ## Can I customize the breakpoints?
 
 **Today, no**. But it's in the have a way to do this but the names `xs`...`xl` will remain part of the library to make easier to use the abstractions. 
+
+## Resources and features
+
+<!-- TODO: Auto generate this section based in the files -->
+
+| Feature name             | JavaScript/React | Dart/Flutter | 
+| ---                      | ---              | ---     |
+| breakpoints              | ✅               | ✅      |
+| parseStylesheet          | ✅               | ❌      |
+| GridItem                 | ❌               | ✅      |
+| Responsive               | ❌               | ✅      |
+
+
+## License
+
+[MIT License](LICENSE) © [Mario Souto](https://mariosouto.com/)
