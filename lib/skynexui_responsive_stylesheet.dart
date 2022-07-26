@@ -1,5 +1,6 @@
 library responsive_stylesheet;
 
+export 'breakpoints/breakpoints.dart';
 export 'responsive/responsive.dart';
 
 /// A Calculator.

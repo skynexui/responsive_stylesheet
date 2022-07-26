@@ -1,36 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:skynexui_responsive_stylesheet/breakpoints/breakpoints.dart';
 
-enum Breakpoints {
-  xs,
-  sm,
-  md,
-  lg,
-  xl,
-}
-
-class ThemeBreakpoints {
-  double xs = 0;
-  double sm = 480;
-  double md = 768;
-  double lg = 920;
-  double xl = 1200;
-}
-
-var themeBreakpoints = ThemeBreakpoints();
-
-Breakpoints getCurrentBreakpoint(double screenWidth) {
-  if (screenWidth < themeBreakpoints.sm) {
+Breakpoints _getCurrentBreakpoint(double screenWidth) {
+  if (screenWidth < breakpoints.sm) {
     return Breakpoints.xs;
   }
-  if (screenWidth < themeBreakpoints.md) {
+  if (screenWidth < breakpoints.md) {
     return Breakpoints.sm;
   }
 
-  if (screenWidth < themeBreakpoints.lg) {
+  if (screenWidth < breakpoints.lg) {
     return Breakpoints.md;
   }
 
-  if (screenWidth < themeBreakpoints.xl) {
+  if (screenWidth < breakpoints.xl) {
     return Breakpoints.lg;
   }
 
@@ -40,14 +23,14 @@ Breakpoints getCurrentBreakpoint(double screenWidth) {
 // ============================================================
 // [Value resolver]
 // ============================================================
-const Map<Breakpoints, double> breakpointsOrderByBreakpoint = {
+const Map<Breakpoints, double> _breakpointsOrderByBreakpoint = {
   Breakpoints.xs: 0,
   Breakpoints.sm: 1,
   Breakpoints.md: 2,
   Breakpoints.lg: 3,
   Breakpoints.xl: 4,
 };
-const Map<int, Breakpoints> breakpointsOrderByOrder = {
+const Map<int, Breakpoints> _breakpointsOrderByOrder = {
   0: Breakpoints.xs,
   1: Breakpoints.sm,
   2: Breakpoints.md,
@@ -60,12 +43,12 @@ dynamic resolveValueForBreakpoint(
     return value[activeBreakpoint];
   }
 
-  var currentBreakpointOrder = breakpointsOrderByBreakpoint[activeBreakpoint];
+  var currentBreakpointOrder = _breakpointsOrderByBreakpoint[activeBreakpoint];
 
   // ignore: todo
   // TODO: I know that I can do it better, but not now
   for (var i = currentBreakpointOrder; i! >= 0; i--) {
-    var breakpoint = breakpointsOrderByOrder[i];
+    var breakpoint = _breakpointsOrderByOrder[i];
     if (value.containsKey(breakpoint) && value[breakpoint] != null) {
       // Remove px
       return value[breakpoint];
@@ -73,35 +56,22 @@ dynamic resolveValueForBreakpoint(
   }
 }
 
-Breakpoints getActiveBreakpoint(BuildContext context) {
-  var screenSize = MediaQuery.of(context).size.width;
-  var activeBreakpoint = getCurrentBreakpoint(screenSize);
-
-  return activeBreakpoint;
-}
-
-ValueType valueForBreakpoint<ValueType>(
-  Map<Breakpoints, ValueType> value,
-  BuildContext context,
-) {
-  var activeBreakpoint = getActiveBreakpoint(context);
-  return resolveValueForBreakpoint(value, activeBreakpoint);
-}
-
 class Responsive {
   final BuildContext context;
 
   Responsive(this.context);
 
-  getScreenWidth() {
-    double screenWidth = MediaQuery.of(context).size.width;
-    return screenWidth;
+  Breakpoints getActiveBreakpoint() {
+    var screenSize = MediaQuery.of(context).size.width;
+    var activeBreakpoint = _getCurrentBreakpoint(screenSize);
+
+    return activeBreakpoint;
   }
 
   ValueType value<ValueType>(
     Map<Breakpoints, ValueType> value,
   ) {
-    var activeBreakpoint = getActiveBreakpoint(context);
+    var activeBreakpoint = getActiveBreakpoint();
     return resolveValueForBreakpoint(value, activeBreakpoint);
   }
 }
