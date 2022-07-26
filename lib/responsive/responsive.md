@@ -1,4 +1,4 @@
-# breakpoints
+# Responsive
 
 ## How to import it?
 
@@ -14,7 +14,7 @@ N/A
 
 ### Dart
 
-- Combined with `Breakpoints`, you are allowed to provide different values for each resolution in a declarative way
+- Combined with `Breakpoints`, you are allowed to provide different values for each resolution in a declarative way using the `.value` method:
 
 ```dart
 class WidgetWithResponsiveOutput extends StatelessWidget {
