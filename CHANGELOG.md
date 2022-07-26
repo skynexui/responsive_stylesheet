@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/skynexui/responsive_stylesheet/compare/v1.7.0...v1.7.1) (2022-07-26)
+
+
+### Bug Fixes
+
+* minor release of new examples ([199c58c](https://github.com/skynexui/responsive_stylesheet/commit/199c58cce0e19d01c00fde14a23355ad9fbaf4b7))
+
 # [1.7.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.6.5...v1.7.0) (2022-07-26)
 
 
