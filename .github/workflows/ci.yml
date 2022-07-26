@@ -21,6 +21,25 @@ jobs:
         flutter-version: '3.0.3'
     - name: "Start: Unit Testing"
       run: |
+        flutter pub get
         yarn install
         yarn test
         yarn test:flutter
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: recursive
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+    - uses: subosito/flutter-action@v1
+      with:
+        flutter-version: '3.0.3'
+    - name: "Start: Unit Testing"
+      run: |
+        flutter pub get
+        yarn install
+        yarn lint
+        yarn lint:flutter
