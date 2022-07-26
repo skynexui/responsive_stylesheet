@@ -21,7 +21,19 @@ describe('parseStyleSheet()', () => {
       const input = parseStyleSheet({
         paddingVertical: '10px',
       });
+      expect(input).toMatchSnapshot();
+    });
 
+    it('and it has a stylesheet for hover and focus', () => {
+      const input = parseStyleSheet({
+        backgroundColor: 'red',
+        hover: {
+          backgroundColor: 'blue',
+        },
+        focus: {
+          backgroundColor: 'black',
+        },
+      });
       expect(input).toMatchSnapshot();
     });
   });
@@ -56,6 +68,25 @@ describe('parseStyleSheet()', () => {
         },
       });
 
+      expect(input).toMatchSnapshot();
+    });
+
+    it('and it has a stylesheet for hover and focus', () => {
+      const input = parseStyleSheet({
+        backgroundColor: 'red',
+        hover: {
+          backgroundColor: {
+            xs: 'blue',
+            sm: 'navy',
+          },
+        },
+        focus: {
+          backgroundColor: {
+            xs: 'black',
+            md: 'grey',
+          },
+        },
+      });
       expect(input).toMatchSnapshot();
     });
   });

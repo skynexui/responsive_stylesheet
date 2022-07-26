@@ -1,9 +1,43 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`parseStyleSheet() when receive default stylesheet rules and it has a stylesheet for hover and focus 1`] = `
+Object {
+  "&:focus, body.dark &.unique-id:focus": Object {
+    "backgroundColor": "black",
+  },
+  "&:hover, body.dark &.unique-id:hover": Object {
+    "backgroundColor": "blue",
+  },
+  "backgroundColor": "red",
+}
+`;
+
 exports[`parseStyleSheet() when receive default stylesheet rules and it has only a stylesheet rule vertical and horizontal 1`] = `
 Object {
   "padding-bottom": "10px",
   "padding-top": "10px",
+}
+`;
+
+exports[`parseStyleSheet() when receive responsive stylesheet rules and it has a stylesheet for hover and focus 1`] = `
+Object {
+  "&:focus, body.dark &.unique-id:focus": Object {
+    "@media (min-width: 0px)": Object {
+      "backgroundColor": "black",
+    },
+    "@media (min-width: 768px)": Object {
+      "backgroundColor": "grey",
+    },
+  },
+  "&:hover, body.dark &.unique-id:hover": Object {
+    "@media (min-width: 0px)": Object {
+      "backgroundColor": "blue",
+    },
+    "@media (min-width: 480px)": Object {
+      "backgroundColor": "navy",
+    },
+  },
+  "backgroundColor": "red",
 }
 `;
 
