@@ -44,7 +44,7 @@ body: Container(
 
 ## JavaScript/React ⚛
 
-- [Check the examples to see the usage](https://github.com/skynexui/responsive_stylesheet/tree/main/examples/with_react_sample)
+- [Check the examples to see the usage](https://github.com/skynexui/responsive_stylesheet/blob/main/examples/with_react_sample/pages/index.tsx#L9)
 
 ### How to install?
 
