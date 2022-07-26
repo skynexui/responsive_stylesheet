@@ -1,3 +1,11 @@
+## [1.6.2](https://github.com/skynexui/responsive_stylesheet/compare/v1.6.1...v1.6.2) (2022-07-26)
+
+
+### Bug Fixes
+
+* add a better description to the package ([772873e](https://github.com/skynexui/responsive_stylesheet/commit/772873e197a331abc8b5c8f5b737dd8957356162))
+* broken emoji ([b9d9690](https://github.com/skynexui/responsive_stylesheet/commit/b9d9690728c0d28fb63520a308d18d3c7bf376d1))
+
 ## [1.6.1](https://github.com/skynexui/responsive_stylesheet/compare/v1.6.0...v1.6.1) (2022-07-26)
 
 
