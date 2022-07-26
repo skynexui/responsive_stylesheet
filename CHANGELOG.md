@@ -1,3 +1,10 @@
+## [1.7.2](https://github.com/skynexui/responsive_stylesheet/compare/v1.7.1...v1.7.2) (2022-07-26)
+
+
+### Bug Fixes
+
+* force new bump in the docs ([1cc2f6d](https://github.com/skynexui/responsive_stylesheet/commit/1cc2f6d5ccc90fe48ef6e12d9631af8e152bb7f9))
+
 ## [1.7.1](https://github.com/skynexui/responsive_stylesheet/compare/v1.7.0...v1.7.1) (2022-07-26)
 
 
