@@ -1,3 +1,11 @@
+## [1.7.3](https://github.com/skynexui/responsive_stylesheet/compare/v1.7.2...v1.7.3) (2022-07-26)
+
+
+### Bug Fixes
+
+* remove extra lib from bundle size ([c3c0154](https://github.com/skynexui/responsive_stylesheet/commit/c3c01540f2d5c04675b0c70a971c8c36f8eacf2f))
+* update docs ([23f3707](https://github.com/skynexui/responsive_stylesheet/commit/23f370758eb29927637ca6be668e124afc61f8bf))
+
 ## [1.7.2](https://github.com/skynexui/responsive_stylesheet/compare/v1.7.1...v1.7.2) (2022-07-26)
 
 
