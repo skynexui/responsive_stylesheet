@@ -1,3 +1,10 @@
+## [1.7.4](https://github.com/skynexui/responsive_stylesheet/compare/v1.7.3...v1.7.4) (2022-07-26)
+
+
+### Bug Fixes
+
+* adjust demo deploy to prod ([6188de3](https://github.com/skynexui/responsive_stylesheet/commit/6188de3916c36ae0a9f754eaea3cf6d1ef4476d0))
+
 ## [1.7.3](https://github.com/skynexui/responsive_stylesheet/compare/v1.7.2...v1.7.3) (2022-07-26)
 
 
