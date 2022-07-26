@@ -1,4 +1,6 @@
-# @skynexui/responsive_stylesheet
+# @skynexui/responsive_stylesheet:
+
+> You don't need to be worried just because you have to support multiple screens 📺 🖥 💻 📱 
 
 [<img width="150px" src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" />](https://vercel.com/?utm_source=skynexui&utm_campaign=oss)
 

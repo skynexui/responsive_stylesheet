@@ -1,6 +1,6 @@
 {
   "name": "@skynexui/responsive_stylesheet",
-  "description": "With this package you have some utils to handle styles in Flutter and React",
+  "description": "You don't need to be worried just because you have to support multiple screens 📺 🖥 💻 📱",
   "version": "1.6.1",
   "license": "MIT",
   "private": false,
