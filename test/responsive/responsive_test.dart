@@ -33,10 +33,12 @@ void main() {
   testWidgets(
     'when is in a xs screen, returns the xs value',
     (WidgetTester tester) async {
-      var screenWidth = breakpoints.sm - 1;
+      var screenWidthLessThanSm = breakpoints.sm - 1;
+      var screenWidthOfXsBreakpoint = screenWidthLessThanSm;
+
       var testableWidget = makeTestableWidget(
         child: const WidgetWithResponsiveOutput(),
-        size: Size(screenWidth, screenHeight),
+        size: Size(screenWidthOfXsBreakpoint, screenHeight),
       );
       await tester.pumpWidget(testableWidget);
 
@@ -47,10 +49,11 @@ void main() {
   testWidgets(
     'when is in a sm screen, returns the sm value',
     (WidgetTester tester) async {
-      var screenWidth = breakpoints.md - 1;
+      var screenWidthLessThanMdAndBiggerThanSm = breakpoints.md - 1;
+      var screenWidthOfSmBreakpoint = screenWidthLessThanMdAndBiggerThanSm;
       var testableWidget = makeTestableWidget(
         child: const WidgetWithResponsiveOutput(),
-        size: Size(screenWidth, screenHeight),
+        size: Size(screenWidthOfSmBreakpoint, screenHeight),
       );
       await tester.pumpWidget(testableWidget);
 
@@ -61,10 +64,11 @@ void main() {
   testWidgets(
     'when is in a md screen, returns the md value',
     (WidgetTester tester) async {
-      var screenWidth = breakpoints.lg - 1;
+      var screenWidthLessThanLgAndBiggerThanMd = breakpoints.lg - 1;
+      var screenWidthOfMdBreakpoint = screenWidthLessThanLgAndBiggerThanMd;
       var testableWidget = makeTestableWidget(
         child: const WidgetWithResponsiveOutput(),
-        size: Size(screenWidth, screenHeight),
+        size: Size(screenWidthOfMdBreakpoint, screenHeight),
       );
       await tester.pumpWidget(testableWidget);
 
@@ -75,10 +79,11 @@ void main() {
   testWidgets(
     'when is in a lg screen, returns the lg value',
     (WidgetTester tester) async {
-      var screenWidth = breakpoints.xl - 1;
+      var screenWidthLessThanXlAndBiggerThanLg = breakpoints.xl - 1;
+      var screenWidthOfLgBreakpoint = screenWidthLessThanXlAndBiggerThanLg;
       var testableWidget = makeTestableWidget(
         child: const WidgetWithResponsiveOutput(),
-        size: Size(screenWidth, screenHeight),
+        size: Size(screenWidthOfLgBreakpoint, screenHeight),
       );
       await tester.pumpWidget(testableWidget);
 
@@ -89,10 +94,11 @@ void main() {
   testWidgets(
     'when is in a xl screen, returns the xl value',
     (WidgetTester tester) async {
-      var screenWidth = breakpoints.xl;
+      // For now, this is the biggest one from it to infinity.
+      var screenWidthOfXlBreakpoint = breakpoints.xl;
       var testableWidget = makeTestableWidget(
         child: const WidgetWithResponsiveOutput(),
-        size: Size(screenWidth, screenHeight),
+        size: Size(screenWidthOfXlBreakpoint, screenHeight),
       );
       await tester.pumpWidget(testableWidget);
 
