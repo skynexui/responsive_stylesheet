@@ -18,7 +18,7 @@
     "test": "jest",
     "test:flutter": "flutter test",
     "lint": "eslint './lib/**/*.{ts,tsx}'",
-    "lint:flutter": "dart analyze .",
+    "lint:flutter": "dart analyze ./lib",
     "test:watch": "yarn test --watch",
     "build:watch": "rollup -cw",
     "build": "rollup -c",
