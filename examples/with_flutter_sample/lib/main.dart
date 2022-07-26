@@ -56,15 +56,21 @@ class _MyHomePageState extends State<MyHomePage> {
           Breakpoints.xl: Colors.purple.shade200,
         }),
         child: Center(
-          child: Column(
+          child: GridItem(
+            as: responsive.value({
+              Breakpoints.xs: Column,
+              Breakpoints.md: Row,
+            }),
+            crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              const Text(
-                'You have pushed the button this many times:',
-              ),
-              Text(
-                '$_counter',
-                style: Theme.of(context).textTheme.headline4,
+              const Text('Button clicks:'),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text(
+                  '$_counter',
+                  style: Theme.of(context).textTheme.headline4,
+                ),
               ),
             ],
           ),
