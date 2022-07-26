@@ -46,3 +46,7 @@ body: Container(
 - `xl: 1200` From 1200 and beyond
 
 > All values from here came from other libraries and responsive Front End frameworks.
+
+## Can I customize the breakpoints?
+
+Today, no. But it's in the have a way to do this but the names `xs`...`xl` will remain part of the library to make easier to use the abstractions. 
