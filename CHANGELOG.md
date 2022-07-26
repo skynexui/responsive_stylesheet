@@ -1,3 +1,10 @@
+## [1.6.5](https://github.com/skynexui/responsive_stylesheet/compare/v1.6.4...v1.6.5) (2022-07-26)
+
+
+### Bug Fixes
+
+* trigger release ([72a800c](https://github.com/skynexui/responsive_stylesheet/commit/72a800c0fb3bc8fbb60095f455c9ec0635c25b7c))
+
 ## [1.6.4](https://github.com/skynexui/responsive_stylesheet/compare/v1.6.3...v1.6.4) (2022-07-26)
 
 
