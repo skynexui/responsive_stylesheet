@@ -21,7 +21,7 @@ jobs:
         node-version: '16'
     - name: Setup credentials
       run: | 
-        yarn release:dart:clean
+        npm run release:dart:clean
         mkdir -p ~/.pub-cache 
         cat <<EOF > ~/.pub-cache/credentials.json
         {
