@@ -6,8 +6,11 @@ class HolyGrailLayoutScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: _HolyGrailLayoutBody(),
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Holy Grail Layout"),
+      ),
+      body: const _HolyGrailLayoutBody(),
     );
   }
 }
@@ -159,7 +162,7 @@ class _Footer extends StatelessWidget {
 
     return Container(
       width: screenWidth,
-      color: Colors.grey.shade900,
+      color: Colors.purple.shade900,
       height: 50,
       child: const GridItem(
         crossAxisAlignment: CrossAxisAlignment.center,

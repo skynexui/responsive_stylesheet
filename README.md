@@ -31,8 +31,8 @@ flutter pub add skynexui_responsive_stylesheet
 
 ### Get started
 
-- [Check this file to see a small example project](./examples/with_flutter_sample/lib/main.dart)
-- [Go direct to a usage in this line](https://github.com/skynexui/responsive_stylesheet/blob/main/examples/with_flutter_sample/lib/main.dart#L43)
+- [Check this file to see a small example project](./examples/with_flutter_sample/lib/flutter-basic/flutter-basic.dart)
+- [Go direct to a usage in this line](https://github.com/skynexui/responsive_stylesheet/blob/main/examples/with_flutter_sample/lib/flutter-basic/flutter-basic.dart#L43)
 
 ### Demo
 
