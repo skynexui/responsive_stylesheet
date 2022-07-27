@@ -1,3 +1,10 @@
+## [1.7.6](https://github.com/skynexui/responsive_stylesheet/compare/v1.7.5...v1.7.6) (2022-07-27)
+
+
+### Bug Fixes
+
+* enhance get started ([5e719cc](https://github.com/skynexui/responsive_stylesheet/commit/5e719cc7ebb31f6b6c2e78657f6d300ab5c8a589))
+
 ## [1.7.5](https://github.com/skynexui/responsive_stylesheet/compare/v1.7.4...v1.7.5) (2022-07-27)
 
 
