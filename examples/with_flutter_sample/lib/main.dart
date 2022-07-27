@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:skynexui_responsive_stylesheet/skynexui_responsive_stylesheet.dart';
+import 'package:with_flutter_sample/holy-grail-layout.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,10 @@ class MyApp extends StatelessWidget {
         fontFamily: 'sans-serif',
         primarySwatch: Colors.orange,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      routes: {
+        '/': (context) => const MyHomePage(title: 'Flutter Demo Home Page'),
+        '/holy-grail-layout': (context) => const HolyGrailLayoutScreen(),
+      },
     );
   }
 }
