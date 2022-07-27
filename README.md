@@ -8,14 +8,6 @@
 
 It's a set of common utility strategies to work with responsive styles with CSS in JS and Flutter
 
-## Contributing
-
-Want to contribute with the project? [Check our guide with how and our code guidelines](CONTRIBUTING.md)
-
-## How to report a bug?
-
-Please just open an issue with a link do a small reproduction of the bug and let's discuss about it
-
 ## Summary
 - [Dart/Flutter](#dartflutter)
 - [JavaScript/React](#javascriptreact)
@@ -110,6 +102,16 @@ yarn add @skynexui/responsive_stylesheet
 | BreakpointsProvider                                          | 🚧               | 🚧            |
 
 > ✅ Ready, 🚧 WIP, ❌ Not in roadmap by now, 🗺️ Inside roadmap
+
+# Other project stuff
+
+## Contributing
+
+Want to contribute with the project? [Check our guide with how and our code guidelines](CONTRIBUTING.md)
+
+## How to report a bug?
+
+Please just open an issue with a link do a small reproduction of the bug and let's discuss about it
 
 ## License
 
