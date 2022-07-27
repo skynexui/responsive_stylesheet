@@ -36,10 +36,9 @@ flutter pub add skynexui_responsive_stylesheet
 
 ### Demo
 
-- [Check it out]([https://responsive-stylesheet-flutter-demo.vercel.app/holy-grail-layout](https://responsive-stylesheet-flutter-demo.vercel.app/#/holy-grail-layout))
+- [Check it out live!](https://responsive-stylesheet-flutter-demo.vercel.app/holy-grail-layout)
 
 ![CleanShot 2022-07-27 at 16 27 30](https://user-images.githubusercontent.com/13791385/181355905-6729a384-29a9-40b9-ac8d-caada1ded825.gif)
-<!-- ![CleanShot 2022-07-25 at 21 56 52](https://user-images.githubusercontent.com/13791385/180899758-5f2b530f-a2c1-4842-9ce9-8f5b0ad15fea.gif) -->
 
 ```dart
 body: Container(
@@ -75,8 +74,7 @@ yarn add @skynexui/responsive_stylesheet
 - [Go direct to a usage in this line](https://github.com/skynexui/responsive_stylesheet/blob/main/examples/with_react_sample/pages/index.tsx#L9)
 
 ### Demo
-
-- [Check it out](https://responsive-stylesheet-react-demo.vercel.app/)
+- [Check it out live!](https://responsive-stylesheet-react-demo.vercel.app/)
 
 
 # Docs
