@@ -36,7 +36,7 @@ flutter pub add skynexui_responsive_stylesheet
 
 ### Demo
 
-- [Check it out live!](https://responsive-stylesheet-flutter-demo.vercel.app/holy-grail-layout)
+- [Check it out live!](https://responsive-stylesheet-flutter-demo.vercel.app/#/holy-grail-layout)
 
 ![CleanShot 2022-07-27 at 16 27 30](https://user-images.githubusercontent.com/13791385/181355905-6729a384-29a9-40b9-ac8d-caada1ded825.gif)
 
