@@ -23,24 +23,23 @@ Please just open an issue with a link do a small reproduction of the bug and let
 
 ## Dart/Flutter 🐦
 
-
-
 ### How to install?
 
 ```sh
 flutter pub add skynexui_responsive_stylesheet
 ```
 
-### Get started 
+### Get started
 
 - [Check this file to see a small example project](./examples/with_flutter_sample/lib/main.dart)
 - [Go direct to a usage in this line](https://github.com/skynexui/responsive_stylesheet/blob/main/examples/with_flutter_sample/lib/main.dart#L43)
 
 ### Demo
 
-- [Check it out](https://responsive-stylesheet-flutter-demo.vercel.app/)
+- [Check it out]([https://responsive-stylesheet-flutter-demo.vercel.app/holy-grail-layout](https://responsive-stylesheet-flutter-demo.vercel.app/#/holy-grail-layout))
 
-![CleanShot 2022-07-25 at 21 56 52](https://user-images.githubusercontent.com/13791385/180899758-5f2b530f-a2c1-4842-9ce9-8f5b0ad15fea.gif)
+![CleanShot 2022-07-27 at 16 27 30](https://user-images.githubusercontent.com/13791385/181355905-6729a384-29a9-40b9-ac8d-caada1ded825.gif)
+<!-- ![CleanShot 2022-07-25 at 21 56 52](https://user-images.githubusercontent.com/13791385/180899758-5f2b530f-a2c1-4842-9ce9-8f5b0ad15fea.gif) -->
 
 ```dart
 body: Container(
@@ -53,9 +52,13 @@ body: Container(
   }),
 )
 ```
-> [Learn more looking at the code example](https://github.com/skynexui/responsive_stylesheet/blob/main/examples/with_flutter_sample/lib/main.dart#L43)
+> [Learn more looking at the code example with a small implementation](https://github.com/skynexui/responsive_stylesheet/blob/main/examples/with_flutter_sample/lib/main.dart#L43)
+> 
+> [Or this one of the gif with the Web "Holy Grail Layout"](https://github.com/skynexui/responsive_stylesheet/blob/main/examples/with_flutter_sample/lib/holy-grail-layout.dart)
 
 #### Other demos
+
+- [Basic demo](https://responsive-stylesheet-flutter-demo.vercel.app/#/)
 - [Holy grail layout](https://responsive-stylesheet-flutter-demo.vercel.app/#/holy-grail-layout)
 
 ## JavaScript/React ⚛
