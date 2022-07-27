@@ -31,6 +31,10 @@ Please just open an issue with a link do a small reproduction of the bug and let
 flutter pub add skynexui_responsive_stylesheet
 ```
 
+### Get started 
+
+- [Check this file to see a small example project](./examples/with_flutter_sample/lib/main.dart)
+
 ### Demo
 
 - [Check it out](https://responsive-stylesheet-flutter-demo.vercel.app/)
@@ -60,6 +64,10 @@ body: Container(
 ```sh
 yarn add @skynexui/responsive_stylesheet
 ```
+
+### Get started 
+
+- [Check this project to see a small example project](./examples/with_react_sample)
 
 ### Demo
 
