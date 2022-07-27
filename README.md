@@ -51,14 +51,18 @@ body: Container(
   }),
 )
 ```
-> [Learn more looking at the code example with a small implementation](https://github.com/skynexui/responsive_stylesheet/blob/main/examples/with_flutter_sample/lib/main.dart#L43)
+> [Learn more looking at the code example with a small implementation](./examples/with_flutter_sample/lib/flutter-basic/flutter-basic.dart#L43)
 > 
-> [Or this one of the gif with the Web "Holy Grail Layout"](https://github.com/skynexui/responsive_stylesheet/blob/main/examples/with_flutter_sample/lib/holy-grail-layout.dart)
+> [Or this one of the gif with the Web "Holy Grail Layout"](./examples/with_flutter_sample/lib/holy-grail-layout.dart)
 
 #### Other demos
 
 - [Basic demo](https://responsive-stylesheet-flutter-demo.vercel.app/#/)
+  - [Code](./examples/with_flutter_sample/lib/flutter-basic/flutter-basic.dart)
 - [Holy grail layout](https://responsive-stylesheet-flutter-demo.vercel.app/#/holy-grail-layout)
+  - [Code](./examples/with_flutter_sample/lib/holy-grail-layout/holy-grail-layout.dart)
+- [Chat App](https://responsive-stylesheet-flutter-demo.vercel.app/#/chat-app)
+  - [Code](./examples/with_flutter_sample/lib/chat-app-screen/chat-app-screen.dart)
 
 ## JavaScript/React ⚛
 
