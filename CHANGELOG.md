@@ -1,3 +1,10 @@
+## [1.7.7](https://github.com/skynexui/responsive_stylesheet/compare/v1.7.6...v1.7.7) (2022-07-27)
+
+
+### Bug Fixes
+
+* update font in flutter example ([ba0bd58](https://github.com/skynexui/responsive_stylesheet/commit/ba0bd581d35ec147102c5ec4238701e75926bf08))
+
 ## [1.7.6](https://github.com/skynexui/responsive_stylesheet/compare/v1.7.5...v1.7.6) (2022-07-27)
 
 
