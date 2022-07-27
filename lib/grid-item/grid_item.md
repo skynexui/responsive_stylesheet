@@ -1,20 +1,16 @@
 # GridItem
 
-## How to import it?
-
-```dart
-import 'package:skynexui_responsive_stylesheet/skynexui_responsive_stylesheet.dart';
-```
-```js
-`Comming Soon...`
-```
-
-
 ## How to use it?
 
 ### Dart
 
+```dart
+import 'package:skynexui_responsive_stylesheet/skynexui_responsive_stylesheet.dart';
+```
+
 - `GridItem` is an abstraction to allow you to use Row and Column in a responsive way. You are able to combine it with `Responsive` and change which component will be used in a declarative way
+- By default every `GridItem` is a `Column`
+
 
 ```dart
 class WidgetWithResponsiveOutput extends StatelessWidget {
