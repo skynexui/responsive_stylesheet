@@ -55,6 +55,8 @@ body: Container(
 ```
 > [Learn more looking at the code example](https://github.com/skynexui/responsive_stylesheet/blob/main/examples/with_flutter_sample/lib/main.dart#L43)
 
+#### Other demos
+- [Holy grail layout](https://responsive-stylesheet-flutter-demo.vercel.app/#/holy-grail-layout)
 
 ## JavaScript/React ⚛
 
