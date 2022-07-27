@@ -1,7 +1,7 @@
 {
   "name": "@skynexui/responsive_stylesheet",
   "description": "You don't need to be worried just because you have to support multiple screens 📺 🖥 💻 📱",
-  "version": "1.7.7",
+  "version": "1.7.8",
   "license": "MIT",
   "private": false,
   "types": "dist/index.d.ts",
