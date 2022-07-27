@@ -56,6 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Breakpoints.xl: Colors.purple.shade200,
         }),
         child: Center(
+          // [USAGE] Responsive Row/Column in Flutter
           child: GridItem(
             as: responsive.value({
               Breakpoints.xs: Column,
