@@ -23,7 +23,7 @@ Please just open an issue with a link do a small reproduction of the bug and let
 
 ## Dart/Flutter 🐦
 
-- [Check the examples to see the usage](https://github.com/skynexui/responsive_stylesheet/blob/main/examples/with_flutter_sample/lib/main.dart#L43)
+
 
 ### How to install?
 
@@ -34,6 +34,7 @@ flutter pub add skynexui_responsive_stylesheet
 ### Get started 
 
 - [Check this file to see a small example project](./examples/with_flutter_sample/lib/main.dart)
+- [Go direct to a usage in this line](https://github.com/skynexui/responsive_stylesheet/blob/main/examples/with_flutter_sample/lib/main.dart#L43)
 
 ### Demo
 
@@ -57,8 +58,6 @@ body: Container(
 
 ## JavaScript/React ⚛
 
-- [Check the examples to see the usage](https://github.com/skynexui/responsive_stylesheet/blob/main/examples/with_react_sample/pages/index.tsx#L9)
-
 ### How to install?
 
 ```sh
@@ -68,6 +67,7 @@ yarn add @skynexui/responsive_stylesheet
 ### Get started 
 
 - [Check this project to see a small example project](./examples/with_react_sample)
+- [Go direct to a usage in this line](https://github.com/skynexui/responsive_stylesheet/blob/main/examples/with_react_sample/pages/index.tsx#L9)
 
 ### Demo
 
