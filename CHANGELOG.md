@@ -1,6 +1,5 @@
 ## [1.7.11](https://github.com/skynexui/responsive_stylesheet/compare/v1.7.10...v1.7.11) (2022-07-27)
 
-
 ### Bug Fixes
 
 * update docs ([5f50070](https://github.com/skynexui/responsive_stylesheet/commit/5f500707679be4d8cbd6088643eaaa2948f3182c))
@@ -8,13 +7,11 @@
 
 ## [1.7.10](https://github.com/skynexui/responsive_stylesheet/compare/v1.7.9...v1.7.10) (2022-07-27)
 
-
 ### Bug Fixes
 
 * docs update ([7937139](https://github.com/skynexui/responsive_stylesheet/commit/7937139657ddd2a089a92cd54dbb11928070d93b))
 
 ## [1.7.9](https://github.com/skynexui/responsive_stylesheet/compare/v1.7.8...v1.7.9) (2022-07-27)
-
 
 ### Bug Fixes
 
@@ -22,13 +19,11 @@
 
 ## [1.7.8](https://github.com/skynexui/responsive_stylesheet/compare/v1.7.7...v1.7.8) (2022-07-27)
 
-
 ### Bug Fixes
 
 * release new example ([652b63d](https://github.com/skynexui/responsive_stylesheet/commit/652b63d6af580ed8b3cfedc0aca27868aa53870e))
 
 ## [1.7.7](https://github.com/skynexui/responsive_stylesheet/compare/v1.7.6...v1.7.7) (2022-07-27)
-
 
 ### Bug Fixes
 
@@ -36,13 +31,11 @@
 
 ## [1.7.6](https://github.com/skynexui/responsive_stylesheet/compare/v1.7.5...v1.7.6) (2022-07-27)
 
-
 ### Bug Fixes
 
 * enhance get started ([5e719cc](https://github.com/skynexui/responsive_stylesheet/commit/5e719cc7ebb31f6b6c2e78657f6d300ab5c8a589))
 
 ## [1.7.5](https://github.com/skynexui/responsive_stylesheet/compare/v1.7.4...v1.7.5) (2022-07-27)
-
 
 ### Bug Fixes
 
@@ -50,13 +43,11 @@
 
 ## [1.7.4](https://github.com/skynexui/responsive_stylesheet/compare/v1.7.3...v1.7.4) (2022-07-26)
 
-
 ### Bug Fixes
 
 * adjust demo deploy to prod ([6188de3](https://github.com/skynexui/responsive_stylesheet/commit/6188de3916c36ae0a9f754eaea3cf6d1ef4476d0))
 
 ## [1.7.3](https://github.com/skynexui/responsive_stylesheet/compare/v1.7.2...v1.7.3) (2022-07-26)
-
 
 ### Bug Fixes
 
@@ -65,13 +56,11 @@
 
 ## [1.7.2](https://github.com/skynexui/responsive_stylesheet/compare/v1.7.1...v1.7.2) (2022-07-26)
 
-
 ### Bug Fixes
 
 * force new bump in the docs ([1cc2f6d](https://github.com/skynexui/responsive_stylesheet/commit/1cc2f6d5ccc90fe48ef6e12d9631af8e152bb7f9))
 
 ## [1.7.1](https://github.com/skynexui/responsive_stylesheet/compare/v1.7.0...v1.7.1) (2022-07-26)
-
 
 ### Bug Fixes
 
@@ -79,20 +68,17 @@
 
 # [1.7.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.6.5...v1.7.0) (2022-07-26)
 
-
 ### Features
 
 * add grid item component ([1e5172a](https://github.com/skynexui/responsive_stylesheet/commit/1e5172a94f338b981956882af1a2dd30e0853847))
 
 ## [1.6.5](https://github.com/skynexui/responsive_stylesheet/compare/v1.6.4...v1.6.5) (2022-07-26)
 
-
 ### Bug Fixes
 
 * trigger release ([72a800c](https://github.com/skynexui/responsive_stylesheet/commit/72a800c0fb3bc8fbb60095f455c9ec0635c25b7c))
 
 ## [1.6.4](https://github.com/skynexui/responsive_stylesheet/compare/v1.6.3...v1.6.4) (2022-07-26)
-
 
 ### Bug Fixes
 
@@ -101,13 +87,11 @@
 
 ## [1.6.3](https://github.com/skynexui/responsive_stylesheet/compare/v1.6.2...v1.6.3) (2022-07-26)
 
-
 ### Bug Fixes
 
 * bump a small version to trigger the entire CI ([186a563](https://github.com/skynexui/responsive_stylesheet/commit/186a563c639774137be12ed1ee8b5773486e8bb9))
 
 ## [1.6.2](https://github.com/skynexui/responsive_stylesheet/compare/v1.6.1...v1.6.2) (2022-07-26)
-
 
 ### Bug Fixes
 
@@ -116,13 +100,11 @@
 
 ## [1.6.1](https://github.com/skynexui/responsive_stylesheet/compare/v1.6.0...v1.6.1) (2022-07-26)
 
-
 ### Bug Fixes
 
 * minor update in CI env ([708054b](https://github.com/skynexui/responsive_stylesheet/commit/708054bafe901396ee61c0c2ea74e134940675b9))
 
 # [1.6.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.5.5...v1.6.0) (2022-07-26)
-
 
 ### Features
 
@@ -130,13 +112,11 @@
 
 ## [1.5.5](https://github.com/skynexui/responsive_stylesheet/compare/v1.5.4...v1.5.5) (2022-07-25)
 
-
 ### Bug Fixes
 
 * release a new minor test version ([0d300bb](https://github.com/skynexui/responsive_stylesheet/commit/0d300bb376da6c46322e49fb35bc585d29b049ce))
 
 ## [1.5.4](https://github.com/skynexui/responsive_stylesheet/compare/v1.5.3...v1.5.4) (2022-07-25)
-
 
 ### Bug Fixes
 
@@ -144,13 +124,11 @@
 
 ## [1.5.3](https://github.com/skynexui/responsive_stylesheet/compare/v1.5.2...v1.5.3) (2022-07-25)
 
-
 ### Bug Fixes
 
 * minor bump in ci flutter ([5263a0c](https://github.com/skynexui/responsive_stylesheet/commit/5263a0c006a2fe7a76df364ff58850a4691f9977))
 
 ## [1.5.2](https://github.com/skynexui/responsive_stylesheet/compare/v1.5.1...v1.5.2) (2022-07-25)
-
 
 ### Bug Fixes
 
@@ -158,13 +136,11 @@
 
 ## [1.5.1](https://github.com/skynexui/responsive_stylesheet/compare/v1.5.0...v1.5.1) (2022-07-25)
 
-
 ### Bug Fixes
 
 * minor patch ([ce86b8a](https://github.com/skynexui/responsive_stylesheet/commit/ce86b8afa8fd146e9a63270a1656029c17da78be))
 
 # [1.5.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.4.0...v1.5.0) (2022-07-25)
-
 
 ### Features
 
@@ -173,13 +149,11 @@
 
 # [1.4.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.3.0...v1.4.0) (2022-07-25)
 
-
 ### Features
 
 * new release for flutter also ([20145e5](https://github.com/skynexui/responsive_stylesheet/commit/20145e5adf48bd4a4a5bd767e7d5424e41d7ae41))
 
 # [1.3.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.2.0...v1.3.0) (2022-07-25)
-
 
 ### Features
 
@@ -187,13 +161,11 @@
 
 # [1.2.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.1.0...v1.2.0) (2022-07-24)
 
-
 ### Features
 
 * export breakpoints to users of the lib ([ecdbff3](https://github.com/skynexui/responsive_stylesheet/commit/ecdbff34d9e0494735bbdae33dbe480bfe347e8f))
 
 # [1.1.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.0.4...v1.1.0) (2022-07-24)
-
 
 ### Features
 
@@ -201,13 +173,11 @@
 
 ## [1.0.4](https://github.com/skynexui/responsive_stylesheet/compare/v1.0.3...v1.0.4) (2022-07-24)
 
-
 ### Bug Fixes
 
 * create-new-release ([2fe286b](https://github.com/skynexui/responsive_stylesheet/commit/2fe286bba652e78662a5f4cf47a272f7439ee7f3))
 
 ## [1.0.3](https://github.com/skynexui/responsive_stylesheet/compare/v1.0.2...v1.0.3) (2022-07-24)
-
 
 ### Bug Fixes
 
@@ -215,20 +185,17 @@
 
 ## [1.0.2](https://github.com/skynexui/responsive_stylesheet/compare/v1.0.1...v1.0.2) (2022-07-24)
 
-
 ### Bug Fixes
 
 * minor changes in packagejson ([96e257c](https://github.com/skynexui/responsive_stylesheet/commit/96e257c11c7bf853c2c9ca0288e7a21df08f1e5d))
 
 ## [1.0.1](https://github.com/skynexui/responsive_stylesheet/compare/v1.0.0...v1.0.1) (2022-07-24)
 
-
 ### Bug Fixes
 
 * add test support ([00b5742](https://github.com/skynexui/responsive_stylesheet/commit/00b5742b60b01e4b0822fc1a46fd17da63e283c1))
 
 # 1.0.0 (2022-07-24)
-
 
 ### Bug Fixes
 
