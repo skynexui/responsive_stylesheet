@@ -34,6 +34,13 @@ class WidgetWithResponsiveOutput extends StatelessWidget {
 }
 ```
 
+- `responsive.screenWidth`: It's a easy way to access screen width and return it's value in different ways
+```dart
+// Screen Width Size => 1000
+var outputValue = responsive.screenWidth.value; // 1000
+var outputValue = responsive.screenWidth.percent(40); // 400
+```
+
 
 ### JavaScript
 
