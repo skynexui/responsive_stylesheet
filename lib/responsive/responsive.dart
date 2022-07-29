@@ -56,6 +56,21 @@ dynamic resolveValueForBreakpoint(
   }
 }
 
+// ============================================================
+
+class ScreenWidth {
+  final double widthValue;
+  const ScreenWidth(this.widthValue);
+
+  double get value {
+    return widthValue;
+  }
+
+  double percent(double percent) {
+    return widthValue * (percent / 100);
+  }
+}
+
 class Responsive {
   final BuildContext context;
 
@@ -66,6 +81,11 @@ class Responsive {
     var activeBreakpoint = _getCurrentBreakpoint(screenSize);
 
     return activeBreakpoint;
+  }
+
+  ScreenWidth get screenWidth {
+    var screenSize = MediaQuery.of(context).size.width;
+    return ScreenWidth(screenSize);
   }
 
   ValueType value<ValueType>(
