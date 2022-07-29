@@ -62,6 +62,9 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Release NPM Registry
+        env:
+          GIT_AUTHOR_NAME: "@bumper-bot"
+          GITHUB_TOKEN: ${{ secrets.GH_GLOBAL_TOKEN }}
         run: |
           echo 'Run Flutter CI Steps'
           echo $GITHUB_TOKEN
