@@ -3,6 +3,7 @@ import 'package:skynexui_responsive_stylesheet/skynexui_responsive_stylesheet.da
 import 'package:with_flutter_sample/chat-app-screen/chat-app-screen.dart';
 import 'package:with_flutter_sample/flutter-basic/flutter-basic.dart';
 import 'package:with_flutter_sample/holy-grail-layout/holy-grail-layout.dart';
+import 'package:with_flutter_sample/todo-app/screens/routes.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
             const FlutterBasic(title: 'Flutter Demo Home Page'),
         '/holy-grail-layout': (context) => const HolyGrailLayoutScreen(),
         '/chat-app': (context) => const ChatAppScreen(),
+        ...todoAppRoutes
       },
     );
   }
@@ -39,6 +41,7 @@ class HomeScreen extends StatelessWidget {
       {"name": 'Flutter Basic Screen', "href": "/flutter-basic"},
       {"name": 'Holy Grail Layout Screen', "href": "/holy-grail-layout"},
       {"name": 'Chat App Screen', "href": "/chat-app"},
+      {"name": 'Todo App Sample', "href": "/$appRoutesNamespace"},
     ];
     return Scaffold(
       body: Center(
