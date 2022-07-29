@@ -1,3 +1,16 @@
+# [1.8.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.7.11...v1.8.0) (2022-07-29)
+
+
+### Bug Fixes
+
+* test deploy ([4c61dc9](https://github.com/skynexui/responsive_stylesheet/commit/4c61dc9af19df5f49ee5a6a0f2b4c90dc0aa237e))
+* update ([978825e](https://github.com/skynexui/responsive_stylesheet/commit/978825e20e50444189cfff195c31cff2bacaa3cb))
+
+
+### Features
+
+* add screenWidth support to responsive ([99ca51b](https://github.com/skynexui/responsive_stylesheet/commit/99ca51b2f10a73af4ae8c0be99698236106b3bd4))
+
 ## [1.7.11](https://github.com/skynexui/responsive_stylesheet/compare/v1.7.10...v1.7.11) (2022-07-27)
 
 ### Bug Fixes
