@@ -84,7 +84,7 @@ packages:
       name: code_builder
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "4.1.0"
+    version: "4.2.0"
   collection:
     dependency: transitive
     description:
@@ -206,7 +206,7 @@ packages:
       name: mockito
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "5.2.0"
+    version: "5.3.0"
   package_config:
     dependency: transitive
     description:
@@ -239,7 +239,7 @@ packages:
       name: skynexui_responsive_stylesheet
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.7.0"
+    version: "1.7.11"
   source_gen:
     dependency: transitive
     description:

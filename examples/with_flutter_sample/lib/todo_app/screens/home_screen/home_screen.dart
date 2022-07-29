@@ -17,33 +17,63 @@ class _HomeScreenState extends State<HomeScreen> {
         appBar: AppBar(
           title: const Text('Todo App'),
         ),
-        body: const Text('Sample page'),
-        floatingActionButton: const MainActionButton(),
+        body: const _HomeScreenBody(),
+        floatingActionButton: MainActionButton(
+          onPressed: () {
+            // ignore: avoid_print
+            print('Main action button pressed');
+          },
+        ),
       ),
     );
   }
 }
 
-class MainActionButton extends StatelessWidget {
-  const MainActionButton({
+class _HomeScreenBody extends StatelessWidget {
+  const _HomeScreenBody({
     Key? key,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
+    // var responsive = Responsive(context);
+    return GridItem(
+      children: [
+        Container(
+          // width: responsive.screenWidth().percent(100),
+          color: Colors.red.shade100,
+          child: const Text('Sample page'),
+        )
+      ],
+    );
+  }
+}
+
+class MainActionButton extends StatelessWidget {
+  final VoidCallback? onPressed;
+
+  const MainActionButton({
+    Key? key,
+    required this.onPressed,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
     var responsive = Responsive(context);
+    const label = 'Add todo';
+    const icon = Icon(Icons.create);
 
     var btnFull = FloatingActionButton.extended(
-      onPressed: () {},
-      label: const Text('Add todo'),
-      icon: const Icon(Icons.create),
+      onPressed: onPressed,
+      label: const Text(label),
+      icon: icon,
       backgroundColor: Colors.blue,
     );
 
     var btnCompact = FloatingActionButton(
-      onPressed: () {},
+      onPressed: onPressed,
       backgroundColor: Colors.blue,
-      child: const Icon(Icons.create),
+      child: icon,
     );
 
     return responsive.value({
