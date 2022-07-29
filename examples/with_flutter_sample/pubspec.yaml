@@ -30,7 +30,7 @@ dependencies:
   flutter:
     sdk: flutter
   # Prod
-  skynexui_responsive_stylesheet: any
+  skynexui_responsive_stylesheet: 1.8.0
 
   cupertino_icons: ^1.0.2
 

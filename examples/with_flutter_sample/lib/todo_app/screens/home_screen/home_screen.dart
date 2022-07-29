@@ -36,15 +36,33 @@ class _HomeScreenBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // var responsive = Responsive(context);
-    return GridItem(
-      children: [
-        Container(
-          // width: responsive.screenWidth().percent(100),
-          color: Colors.red.shade100,
-          child: const Text('Sample page'),
-        )
-      ],
+    var responsive = Responsive(context);
+    return Container(
+      width: responsive.screenWidth.percent(100),
+      color: Colors.purple.shade100,
+      child: GridItem(
+        as: Column,
+        mainAxisAlignment: MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          const Text('100% of screen width'),
+          Container(
+            width: responsive.screenWidth.percent(75),
+            color: Colors.red.shade100,
+            child: const Text('75% of screen width'),
+          ),
+          Container(
+            width: responsive.screenWidth.percent(50),
+            color: Colors.blue.shade100,
+            child: const Text('50% of screen width'),
+          ),
+          Container(
+            width: responsive.screenWidth.percent(25),
+            color: Colors.green.shade100,
+            child: const Text('25% of screen width'),
+          ),
+        ],
+      ),
     );
   }
 }
