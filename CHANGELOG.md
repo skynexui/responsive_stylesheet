@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/skynexui/responsive_stylesheet/compare/v1.8.0...v1.8.1) (2022-07-29)
+
+
+### Bug Fixes
+
+* testing protection ([77f0999](https://github.com/skynexui/responsive_stylesheet/commit/77f0999015949ec846823f5abe5d270bfc823f35))
+
 # [1.8.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.7.11...v1.8.0) (2022-07-29)
 
 
