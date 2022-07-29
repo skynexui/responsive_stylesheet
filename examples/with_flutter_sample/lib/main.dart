@@ -57,7 +57,7 @@ class HomeScreen extends StatelessWidget {
               return Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: ElevatedButton(
-                  child: Text(link["name"] as String),
+                  child: Text(link["name"] as String)
                   onPressed: () =>
                       Navigator.pushNamed(context, link["href"] as String),
                 ),
