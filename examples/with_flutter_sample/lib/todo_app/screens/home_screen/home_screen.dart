@@ -13,29 +13,38 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  List<Todo> todos = [
-    Todo(
-      id: '1',
-      title: 'Buy milk',
-      description: 'Milk is needed for the baby',
-      completed: false,
-      updatedAt: DateTime.now(),
-    ),
-    Todo(
-      id: '2',
-      title: 'Buy eggs',
-      description: 'Eggs are needed for the baby',
-      completed: false,
-      updatedAt: DateTime.now(),
-    ),
-    Todo(
-      id: '3',
-      title: 'Buy bread',
-      description: 'Bread is needed for the baby',
-      completed: false,
-      updatedAt: DateTime.now(),
-    ),
-  ];
+  List<Todo> todos = [];
+
+  @override
+  void initState() {
+    super.initState();
+
+    Future.delayed(const Duration(milliseconds: 1 * 2000), () {
+      setState(() {
+        todos.add(Todo(
+          id: '1',
+          title: 'Buy milk',
+          description: 'Milk is needed for the baby',
+          completed: false,
+          updatedAt: DateTime.now(),
+        ));
+        todos.add(Todo(
+          id: '2',
+          title: 'Buy eggs',
+          description: 'Eggs are needed for the baby',
+          completed: false,
+          updatedAt: DateTime.now(),
+        ));
+        todos.add(Todo(
+          id: '3',
+          title: 'Buy bread',
+          description: 'Bread is needed for the baby',
+          completed: false,
+          updatedAt: DateTime.now(),
+        ));
+      });
+    });
+  }
 
   createTodo() {
     setState(() {

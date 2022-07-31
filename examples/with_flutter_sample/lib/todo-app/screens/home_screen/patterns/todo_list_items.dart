@@ -16,6 +16,18 @@ class TodoListItems extends StatelessWidget {
   Widget build(BuildContext context) {
     var responsive = Responsive(context);
 
+    if (todos.isEmpty) {
+      return const Expanded(
+        child: SizedBox(
+          child: Center(
+            child: CircularProgressIndicator(
+              color: Colors.amber,
+            ),
+          ),
+        ),
+      );
+    }
+
     return Expanded(
       child: GridView.builder(
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
