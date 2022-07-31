@@ -96,7 +96,10 @@ class _HomeScreenBody extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           const Header(),
-          TodoListItems(todos: todos, onDeleteTodo: onDeleteTodo),
+          TodoListItems(
+            todos: todos,
+            onDeleteTodo: onDeleteTodo,
+          ),
         ],
       ),
     );
