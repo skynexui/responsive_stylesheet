@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.8.1...v1.9.0) (2022-08-01)
+
+
+### Features
+
+* add support to stylesheet interface in JS/TS version ([65310d7](https://github.com/skynexui/responsive_stylesheet/commit/65310d7c536736fe12995683615438c52d4cd733))
+
 ## [1.8.1](https://github.com/skynexui/responsive_stylesheet/compare/v1.8.0...v1.8.1) (2022-07-29)
 
 
