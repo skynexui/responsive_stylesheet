@@ -1,26 +1,26 @@
 /* eslint-disable no-console */
-/* eslint-disable @typescript-eslint/no-var-requires */
-import path from 'path';
-import { execSync } from 'child_process';
-import alias from '@rollup/plugin-alias';
-import resolve from '@rollup/plugin-node-resolve';
-import commonjs from '@rollup/plugin-commonjs';
-import babel from '@rollup/plugin-babel';
-import external from 'rollup-plugin-peer-deps-external';
-import dts from 'rollup-plugin-dts';
+import path from "path";
+import { execSync } from "child_process";
+import alias from "@rollup/plugin-alias";
+import resolve from "@rollup/plugin-node-resolve";
+import commonjs from "@rollup/plugin-commonjs";
+import babel from "@rollup/plugin-babel";
+import typescript from "@rollup/plugin-typescript";
+import external from "rollup-plugin-peer-deps-external";
+import dts from "rollup-plugin-dts";
 
-const packageJson = require('./package.json');
+const packageJson = require("./package.json");
 
-const extensions = ['.ts', '.tsx', '.json'];
+const extensions = [".ts", ".tsx", ".json"];
 
 const SKNBBuildEnd = (options = {}) => {
-  const { hook = 'generateBundle' } = options;
+  const { hook = "generateBundle" } = options;
   return {
-    name: 'skn-build-end',
+    name: "skn-build-end",
     [hook]: async () => {
-      execSync('[ -d dist ] || mkdir dist');
+      execSync("[ -d dist ] || mkdir dist");
 
-      const cmdExportTypes = 'yarn export:types';
+      const cmdExportTypes = "yarn export:types";
       console.log(`RUN: ${cmdExportTypes}`);
       execSync(cmdExportTypes);
       console.log(`DONE: ${cmdExportTypes}`);
@@ -30,20 +30,20 @@ const SKNBBuildEnd = (options = {}) => {
 
 export default [
   {
-    input: 'lib/index.ts',
+    input: "lib/index.ts",
     external: (id) => {
       return /^react|styled-jsx|next/.test(id);
     },
     output: [
       {
         file: packageJson.main,
-        format: 'cjs',
+        format: "cjs",
         sourcemap: true,
         name: packageJson.name,
       },
       {
         file: packageJson.module,
-        format: 'esm',
+        format: "esm",
         sourcemap: true,
       },
     ],
@@ -52,9 +52,9 @@ export default [
       alias({
         entries: [
           {
-            find: '@lib',
+            find: "@lib",
             replacement: () => {
-              return path.resolve(__dirname, 'lib');
+              return path.resolve(__dirname, "lib");
             },
           },
         ],
@@ -63,26 +63,27 @@ export default [
         jsnext: true,
         extensions,
       }),
+      typescript(),
       commonjs(),
       babel({
-        babelHelpers: 'inline',
-        exclude: 'node_modules/**',
+        babelHelpers: "inline",
+        exclude: "node_modules/**",
         extensions,
       }),
       SKNBBuildEnd(),
     ],
   },
   {
-    input: 'types/lib/index.d.ts',
-    output: [{ file: packageJson.types, format: 'esm' }],
+    input: "types/lib/index.d.ts",
+    output: [{ file: packageJson.types, format: "esm" }],
     external: [/\.css$/],
     plugins: [
       alias({
         entries: [
           {
-            find: '@lib',
+            find: "@lib",
             replacement: () => {
-              return path.resolve(__dirname, 'types', 'lib');
+              return path.resolve(__dirname, "types", "lib");
             },
           },
         ],

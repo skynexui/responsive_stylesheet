@@ -8,6 +8,7 @@ import {
 import { ResponsiveProperty } from "./responsive-property";
 
 export { ResponsiveProperty } from "./responsive-property";
+
 export interface StyleSheet {
   // [box-model]
   height?: height;
