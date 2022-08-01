@@ -10,17 +10,21 @@ import { ResponsiveProperty } from "./responsive-property";
 export { ResponsiveProperty } from "./responsive-property";
 
 export interface StyleSheet {
-  // [box-model]
+  // [box-model]  ============================================================
   height?: height;
   width?: width;
   color?: color;
   backgroundColor?: background;
 
-  // [flexbox]
+  // [flexbox] ===============================================================
   flex?: flex;
+  /** https://developer.mozilla.org/pt-BR/docs/Web/CSS/align-items */
   alignItems?: alignItems;
+  /** It is equivalent to alignItems */
   crossAxisAlignment?: alignItems;
+  /** https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content */
   justifyContent?: justifyContent;
+  /** It is equivalent to justifyContent */
   mainAxisAlignment?: justifyContent;
   flexDirection?: flexDirection;
 
