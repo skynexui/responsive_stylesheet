@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/skynexui/responsive_stylesheet/compare/v1.9.0...v1.9.1) (2022-08-01)
+
+
+### Bug Fixes
+
+* broken api using mainAxisAlignment ([413088b](https://github.com/skynexui/responsive_stylesheet/commit/413088b60648079a7ba8311441740b4acad4eff8))
+
 # [1.9.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.8.1...v1.9.0) (2022-08-01)
 
 
