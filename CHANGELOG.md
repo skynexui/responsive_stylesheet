@@ -1,3 +1,10 @@
+## [1.9.4](https://github.com/skynexui/responsive_stylesheet/compare/v1.9.3...v1.9.4) (2022-08-01)
+
+
+### Bug Fixes
+
+* enhance autocomplete ([322b3ef](https://github.com/skynexui/responsive_stylesheet/commit/322b3ef4bb83e36a8b4623042f40787f9477a9ff))
+
 ## [1.9.3](https://github.com/skynexui/responsive_stylesheet/compare/v1.9.2...v1.9.3) (2022-08-01)
 
 
