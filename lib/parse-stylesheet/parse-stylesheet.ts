@@ -5,9 +5,9 @@ function parseStyleSheetRule(property: any, value: any) {
     // crossAxisAlignment?: alignItems;
     return { alignItems: value };
   }
-  if (property.includes("crossAxisAlignment")) {
+  if (property.includes("mainAxisAlignment")) {
     // mainAxisAlignment?: justifyContent;
-    return { crossAxisAlignment: value };
+    return { justifyContent: value };
   }
 
   if (property.includes("Vertical")) {

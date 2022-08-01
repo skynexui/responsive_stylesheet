@@ -90,4 +90,44 @@ describe("parseStyleSheet()", () => {
       expect(input).toMatchSnapshot();
     });
   });
+
+  describe("when receive an specific stylesheet rule", () => {
+    it('and it is "mainAxisAlignment", must be converted to "justifyContent"', () => {
+      const input = parseStyleSheet({
+        mainAxisAlignment: "stretch",
+        hover: {
+          mainAxisAlignment: {
+            xs: "center",
+            sm: "stretch",
+          },
+        },
+        focus: {
+          mainAxisAlignment: {
+            xs: "center",
+            md: "stretch",
+          },
+        },
+      });
+      expect(input).toMatchSnapshot();
+    });
+
+    it('and it is "crossAxisAlignment", must be converted to "alignItems"', () => {
+      const input = parseStyleSheet({
+        crossAxisAlignment: "stretch",
+        hover: {
+          crossAxisAlignment: {
+            xs: "center",
+            sm: "stretch",
+          },
+        },
+        focus: {
+          crossAxisAlignment: {
+            xs: "center",
+            md: "stretch",
+          },
+        },
+      });
+      expect(input).toMatchSnapshot();
+    });
+  });
 });
