@@ -1,12 +1,18 @@
 import { ResponsiveProperty } from "../responsive-property";
 
-export type flexDirection = ResponsiveProperty<"row" | "column"> | string;
+export type flexDirection =
+  | ResponsiveProperty<"row" | "column">
+  | "row"
+  | "column";
 
 export type flex = ResponsiveProperty<number | string> | string | number;
 
 export type alignItems =
   | ResponsiveProperty<"stretch" | "flex-start" | "flex-end" | "center">
-  | string;
+  | "stretch"
+  | "flex-start"
+  | "flex-end"
+  | "center";
 
 export type justifyContent =
   | ResponsiveProperty<
@@ -17,4 +23,9 @@ export type justifyContent =
       | "spaceAround"
       | "spaceEvenly"
     >
-  | string;
+  | "center"
+  | "flex-start"
+  | "flex-end"
+  | "spaceBetween"
+  | "spaceAround"
+  | "spaceEvenly";
