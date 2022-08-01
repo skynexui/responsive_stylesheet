@@ -1,3 +1,10 @@
+## [1.9.5](https://github.com/skynexui/responsive_stylesheet/compare/v1.9.4...v1.9.5) (2022-08-01)
+
+
+### Bug Fixes
+
+* add more docs ([e39dcce](https://github.com/skynexui/responsive_stylesheet/commit/e39dccef6ba86b0a782a2238a1f3708ea1512487))
+
 ## [1.9.4](https://github.com/skynexui/responsive_stylesheet/compare/v1.9.3...v1.9.4) (2022-08-01)
 
 
