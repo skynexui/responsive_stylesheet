@@ -1,3 +1,10 @@
+## [1.9.2](https://github.com/skynexui/responsive_stylesheet/compare/v1.9.1...v1.9.2) (2022-08-01)
+
+
+### Bug Fixes
+
+* files in examples folder ([c714dcc](https://github.com/skynexui/responsive_stylesheet/commit/c714dcc59b24d4891ba30746b64f22b120d4ec16))
+
 ## [1.9.1](https://github.com/skynexui/responsive_stylesheet/compare/v1.9.0...v1.9.1) (2022-08-01)
 
 
