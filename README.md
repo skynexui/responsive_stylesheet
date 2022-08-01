@@ -8,9 +8,8 @@
 It's a set of common utility strategies to work with responsive styles with CSS in JS and Flutter
 
 ## Summary
-
-- [Dart/Flutter](#dartflutter)
-- [JavaScript/React](#javascriptreact)
+- [Dart/Flutter](#dartflutter-🐦)
+- [JavaScript/React](#javascriptreact-⚛)
 - [Docs](#docs)
 
 ## Dart/Flutter 🐦
@@ -101,6 +100,7 @@ yarn add @skynexui/responsive_stylesheet
 | [GridItem](./lib/grid-item//grid_item.md)                    | ✅               | 🚧            |
 | parseStylesheet                                              | 🚧               | ✅            |
 | BreakpointsProvider                                          | 🚧               | 🚧            |
+| StyleSheet                                                   | 🚧               | ✅            |
 
 > ✅ Ready, 🚧 WIP, ❌ Not in roadmap by now, 🗺️ Inside roadmap
 

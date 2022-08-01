@@ -1,6 +1,15 @@
 import { breakpoints } from "@lib/breakpoints/breakpoints";
 
 function parseStyleSheetRule(property: any, value: any) {
+  if (property.includes("crossAxisAlignment")) {
+    // crossAxisAlignment?: alignItems;
+    return { alignItems: value };
+  }
+  if (property.includes("crossAxisAlignment")) {
+    // mainAxisAlignment?: justifyContent;
+    return { crossAxisAlignment: value };
+  }
+
   if (property.includes("Vertical")) {
     const propertyBase = property.replace("Vertical", "");
     return {
