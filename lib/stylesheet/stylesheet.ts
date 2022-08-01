@@ -17,6 +17,7 @@ export interface StyleSheet {
   backgroundColor?: background;
 
   // [flexbox] ===============================================================
+  /** https://developer.mozilla.org/en-US/docs/Web/CSS/flex */
   flex?: flex;
   /** https://developer.mozilla.org/pt-BR/docs/Web/CSS/align-items */
   alignItems?: alignItems;
