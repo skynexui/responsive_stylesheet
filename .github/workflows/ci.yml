@@ -45,7 +45,7 @@ jobs:
           yarn install
           yarn lint
           yarn lint:flutter
-  release_app_preview:
+  release_demos_preview:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
