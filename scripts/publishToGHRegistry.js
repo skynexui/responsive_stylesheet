@@ -1,21 +1,22 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
-const fetchModule = import('node-fetch');
-const { execSync } = require('child_process');
+const fetchModule = import("node-fetch");
+const { execSync } = require("child_process");
 
 Promise.allSettled([fetchModule]).then(async ([{ value: fetch }]) => {
-  const lastTag = execSync('git describe --abbrev=0 --tags')
+  const lastTag = execSync("git describe --abbrev=0 --tags")
     .toString()
-    .replace('\n', '')
-    .replace('v', '')
+    .replace("\n", "")
+    .replace("v", "")
     .trim();
 
   const response = await fetch
-    .default('https://github.com/skynexui/responsive_stylesheet/packages/1556737/versions')
+    .default(
+      "https://github.com/skynexui/responsive_stylesheet/packages/1556737/versions"
+    )
     .then((res) => res.text());
 
   if (!response.includes(lastTag)) {
     execSync(
-      'npm publish --@skynexui:registry=https://npm.pkg.github.com --force'
+      "npm publish --@skynexui:registry=https://npm.pkg.github.com --force"
     );
   }
 
