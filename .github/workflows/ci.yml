@@ -1,4 +1,5 @@
 name: CI - Continuous Integration
+
 on:
   pull_request:
     types: [opened, synchronize]
@@ -9,14 +10,13 @@ env:
   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
   VERCEL_TOKEN_GLOBAL: ${{ secrets.VERCEL_TOKEN_GLOBAL }}
   VERCEL_PROJECT_ID__DEMO_FLUTTER: ${{ secrets.VERCEL_PROJECT_ID__DEMO_FLUTTER }}
+  GITHUB_PR_NUMBER: ${{ github.event.pull_request.number }}
 
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          submodules: recursive
       - uses: actions/setup-node@v2
         with:
           node-version: "16"
@@ -33,8 +33,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          submodules: recursive
       - uses: actions/setup-node@v2
         with:
           node-version: "16"
@@ -51,8 +49,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          submodules: recursive
       - uses: actions/setup-node@v2
         with:
           node-version: "16"
