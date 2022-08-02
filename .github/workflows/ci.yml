@@ -56,6 +56,9 @@ jobs:
         with:
           flutter-version: "3.0.3"
       - name: "Start: Deploy Web Preview"
+        env: 
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID__DEMO_FLUTTER }}
         run: |
           yarn install
           yarn deploy:flutterweb:demopreview
