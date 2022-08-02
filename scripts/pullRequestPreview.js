@@ -1,6 +1,6 @@
-import shelljs from "shelljs";
-import dotenv from "dotenv";
-import { GitHubService } from "./services/GitHubService.js";
+const shelljs = require("shelljs");
+const dotenv = require("dotenv");
+const { GitHubService } = require("./services/GitHubService.js");
 
 dotenv.config();
 

@@ -1,6 +1,7 @@
 /* eslint-disable no-console */
-import fetchModule from "node-fetch";
-import { IS_DEBUG } from "../utils/IS_DEBUG.js";
+const fetchModule = require("node-fetch");
+
+const IS_DEBUG = () => Boolean(process.env.DEBUG);
 
 function responseHandler(response) {
   if (response.ok) {
@@ -9,7 +10,7 @@ function responseHandler(response) {
   throw new Error(response.statusText);
 }
 
-export function GitHubService(GITHUB_TOKEN = "not found", fetch = fetchModule) {
+function GitHubService(GITHUB_TOKEN = "not found", fetch = fetchModule) {
   const BASE_URL = "https://api.github.com";
   const defaultHeaders = {
     authorization: `token ${GITHUB_TOKEN}`,
@@ -57,3 +58,7 @@ export function GitHubService(GITHUB_TOKEN = "not found", fetch = fetchModule) {
     },
   };
 }
+
+module.exports = {
+  GitHubService,
+};
