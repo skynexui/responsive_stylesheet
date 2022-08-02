@@ -33,7 +33,10 @@ class TodoListItems extends StatelessWidget {
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: responsive.value({
             Breakpoints.xs: 1,
-            Breakpoints.md: 5,
+            Breakpoints.sm: 2,
+            Breakpoints.md: 3,
+            Breakpoints.lg: 4,
+            Breakpoints.xl: 5,
           }),
         ),
         itemCount: todos.length,
