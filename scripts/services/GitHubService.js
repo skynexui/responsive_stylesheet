@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-const fetchModule = require("node-fetch");
+const fetchModule = require("fetch");
 
 const IS_DEBUG = () => Boolean(process.env.DEBUG);
 
