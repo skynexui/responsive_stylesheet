@@ -9,7 +9,7 @@
 5. Push to the branch: `git push origin my-new-feature`
 6. Submit a pull request
 
-- Add a title os a description that let clear your suggestion :)
+- Add a title or a description that let clear your suggestion :)
 
 ### After your pull request is merged
 
