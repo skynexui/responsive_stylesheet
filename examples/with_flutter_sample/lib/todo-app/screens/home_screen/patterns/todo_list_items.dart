@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:skynexui_responsive_stylesheet/skynexui_responsive_stylesheet.dart';
-import 'package:with_flutter_sample/todo-app/screens/home_screen/domain/todo/Todo.dart';
+import 'package:with_flutter_sample/todo-app/screens/home_screen/domain/todo/todo.dart';
 
 class TodoListItems extends StatelessWidget {
   final List<Todo> todos;

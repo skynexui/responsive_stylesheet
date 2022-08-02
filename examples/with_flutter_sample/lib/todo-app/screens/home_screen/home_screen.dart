@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:skynexui_responsive_stylesheet/skynexui_responsive_stylesheet.dart';
-import 'patterns/todo_list_items.dart';
-import './patterns/header.dart';
-import './domain/todo/Todo.dart';
-import 'patterns/main_action_button.dart';
+import 'package:with_flutter_sample/todo-app/screens/home_screen/domain/todo/todo.dart';
+import 'package:with_flutter_sample/todo-app/screens/home_screen/patterns/header.dart';
+import 'package:with_flutter_sample/todo-app/screens/home_screen/patterns/main_action_button.dart';
+import 'package:with_flutter_sample/todo-app/screens/home_screen/patterns/todo_list_items.dart';
+import 'package:with_flutter_sample/todo-app/screens/home_screen/theme.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
