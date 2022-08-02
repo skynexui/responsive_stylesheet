@@ -35,7 +35,10 @@
     "deploy:flutterweb:demo_base": "cd examples/with_flutter_sample && flutter pub get && flutter build web --web-renderer html && npx vercel ./build/web --confirm --token=$VERCEL_TOKEN_GLOBAL",
     "deploy:flutterweb:demo": "cd examples/with_flutter_sample && flutter pub get && flutter build web --web-renderer html && npx vercel ./build/web --confirm --token=$VERCEL_TOKEN_GLOBAL --prod"
   },
-  "dependencies": {},
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "shelljs": "^0.8.5"
+  },
   "devDependencies": {
     "@babel/core": "7.16.0",
     "@babel/plugin-proposal-private-property-in-object": "^7.16.5",
