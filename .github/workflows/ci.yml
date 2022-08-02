@@ -55,4 +55,4 @@ jobs:
       - name: "Start: Deploy Web Preview"
         run: |
           yarn install
-          yarn yarn deploy:flutterweb:demopreview
+          yarn deploy:flutterweb:demopreview
