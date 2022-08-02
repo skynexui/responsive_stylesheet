@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/skynexui/responsive_stylesheet/compare/v1.10.0...v1.10.1) (2022-08-02)
+
+
+### Bug Fixes
+
+* **docs:** add extra item do features in docs ([ea521f2](https://github.com/skynexui/responsive_stylesheet/commit/ea521f2a0d6bfebbeeddbba749be6dbd7bc8b477))
+
 # [1.10.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.9.6...v1.10.0) (2022-08-02)
 
 
