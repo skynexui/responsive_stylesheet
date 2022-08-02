@@ -1,7 +1,7 @@
 {
   "name": "@skynexui/responsive_stylesheet",
   "description": "You don't need to be worried just because you have to support multiple screens 📺 🖥 💻 📱",
-  "version": "1.9.6",
+  "version": "1.10.0",
   "license": "MIT",
   "private": false,
   "types": "dist/index.d.ts",
@@ -35,8 +35,7 @@
     "deploy:flutterweb:demo_base": "cd examples/with_flutter_sample && flutter pub get && flutter build web --web-renderer html && npx vercel ./build/web --confirm --token=$VERCEL_TOKEN_GLOBAL",
     "deploy:flutterweb:demo": "cd examples/with_flutter_sample && flutter pub get && flutter build web --web-renderer html && npx vercel ./build/web --confirm --token=$VERCEL_TOKEN_GLOBAL --prod"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "dotenv": "^16.0.1",
     "shelljs": "^0.8.5",

@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.9.6...v1.10.0) (2022-08-02)
+
+
+### Features
+
+* update docs ([af3d776](https://github.com/skynexui/responsive_stylesheet/commit/af3d776029af3096e68862bf8dddb00e2e7490d0))
+
 ## [1.9.6](https://github.com/skynexui/responsive_stylesheet/compare/v1.9.5...v1.9.6) (2022-08-02)
 
 
