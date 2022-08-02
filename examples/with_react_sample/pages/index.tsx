@@ -15,9 +15,12 @@ export default function HomeScreen() {
           backgroundColor: {
             xs: "#ff9090",
             sm: "#ffd586",
-            md: "#aaffaa",
+            md: "#81c681",
             lg: "#7d7dff",
-            xl: "#f33cb3",
+            xl: "#f5afdc",
+          },
+          hover: {
+            color: "#222222",
           },
         }}
       >

@@ -1,6 +1,6 @@
 import React from "react";
 import BaseComponent from "@src/theme/BaseComponent/BaseComponent";
-import StyleSheet from "@src/theme/StyleSheet";
+import { StyleSheet } from "@skynexui/responsive_stylesheet";
 
 interface BoxProps {
   tag?: "div" | "section" | string;
