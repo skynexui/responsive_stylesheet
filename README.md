@@ -108,7 +108,7 @@ yarn add @skynexui/responsive_stylesheet
 
 ### Contributing
 
-Want to contribute to the project? [Check our guide with how and our code guidelines](contributing.md)
+Want to contribute to the project? [Check our guide with how and our code guidelines](CONTRIBUTING.md)
 
 ### How to report a bug?
 
