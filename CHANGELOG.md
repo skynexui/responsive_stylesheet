@@ -1,3 +1,10 @@
+## [1.9.6](https://github.com/skynexui/responsive_stylesheet/compare/v1.9.5...v1.9.6) (2022-08-02)
+
+
+### Bug Fixes
+
+* **docs:** contributing broken link ([288bb34](https://github.com/skynexui/responsive_stylesheet/commit/288bb34e781e79ea2dc50a6473326b88dd90ebb2))
+
 ## [1.9.5](https://github.com/skynexui/responsive_stylesheet/compare/v1.9.4...v1.9.5) (2022-08-01)
 
 
