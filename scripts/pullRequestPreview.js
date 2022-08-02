@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 const shelljs = require("shelljs");
 const dotenv = require("dotenv");
 const { GitHubService } = require("./services/GitHubService.js");
@@ -13,6 +14,7 @@ const command = `yarn deploy:flutterweb:demo_base`;
 const output = shelljs.exec(command);
 // =========================
 const commandLines = output.stdout.split("\n");
+console.log(commandLines);
 const vercelUrl = commandLines[commandLines.length - 1];
 
 // [Comment to GitHub]
