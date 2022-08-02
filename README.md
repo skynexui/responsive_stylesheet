@@ -98,9 +98,10 @@ yarn add @skynexui/responsive_stylesheet
 | [Responsive](./lib/responsive//responsive.md)                | ✅               | ❌            |
 | [breakpoints](./lib/breakpoints/breakpoints.md)              | ✅               | ✅            |
 | [GridItem](./lib/grid-item//grid_item.md)                    | ✅               | 🚧            |
-| parseStylesheet                                              | 🚧               | ✅            |
 | BreakpointsProvider                                          | 🚧               | 🚧            |
+| parseStylesheet                                              | 🚧               | ✅            |
 | StyleSheet                                                   | 🚧               | ✅            |
+| BaseComponent                                                | 🚧               | 🚧            |
 
 > ✅ Ready, 🚧 WIP, ❌ Not in roadmap by now, 🗺️ Inside roadmap
 
