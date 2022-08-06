@@ -22,8 +22,8 @@ flutter pub add skynexui_responsive_stylesheet
 
 ### Get started
 
-- [Check this file to see a small example project](./examples/with_flutter_sample/lib/flutter-basic/flutter-basic.dart)
-- [Go direct to usage in this line](https://github.com/skynexui/responsive_stylesheet/blob/main/examples/with_flutter_sample/lib/flutter-basic/flutter-basic.dart#L43)
+- [Check this file to see a small example project](./examples/with_flutter_sample/lib/flutter_basic/flutter_basic.dart)
+- [Go direct to usage in this line](https://github.com/skynexui/responsive_stylesheet/blob/main/examples/with_flutter_sample/lib/flutter_basic/flutter_basic.dart#L43)
 
 ### Demo
 
@@ -43,14 +43,14 @@ body: Container(
 )
 ```
 
-> [Learn more looking at the code example with a small implementation](./examples/with_flutter_sample/lib/flutter-basic/flutter-basic.dart#L43)
+> [Learn more looking at the code example with a small implementation](./examples/with_flutter_sample/lib/flutter_basic/flutter_basic.dart#L43)
 >
 > [Or this one of the gif with the Web "Holy Grail Layout"](./examples/with_flutter_sample/lib/holy-grail-layout.dart)
 
 #### Other demos
 
 - [Basic demo](https://responsive-stylesheet-flutter-demo.vercel.app/#/)
-  - [Code](./examples/with_flutter_sample/lib/flutter-basic/flutter-basic.dart)
+  - [Code](./examples/with_flutter_sample/lib/flutter_basic/flutter_basic.dart)
 - [Holy grail layout](https://responsive-stylesheet-flutter-demo.vercel.app/#/holy-grail-layout)
   - [Code](./examples/with_flutter_sample/lib/holy-grail-layout/holy-grail-layout.dart)
 - [Chat App](https://responsive-stylesheet-flutter-demo.vercel.app/#/chat-app)
