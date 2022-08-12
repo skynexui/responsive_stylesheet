@@ -1,4 +1,4 @@
-# @skynexui/responsive_stylesheet:
+# @skynexui/responsive_stylesheet
 
 > You don't need to be worried just because you have to support multiple screens 📺 🖥 💻 📱
 
