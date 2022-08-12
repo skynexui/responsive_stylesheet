@@ -3,7 +3,7 @@ import 'package:skynexui_responsive_stylesheet/skynexui_responsive_stylesheet.da
 import 'package:with_flutter_sample/chat_app_screen/chat_app_screen.dart';
 import 'package:with_flutter_sample/flutter_basic/flutter_basic.dart';
 import 'package:with_flutter_sample/holy_grail_layout/holy_grail_layout.dart';
-import 'package:with_flutter_sample/todo_app/screens/routes.dart';
+import 'package:with_flutter_sample/todo-app/screens/routes.dart';
 
 void main() {
   runApp(const MyApp());

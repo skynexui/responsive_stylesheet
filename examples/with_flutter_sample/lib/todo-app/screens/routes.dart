@@ -1,4 +1,4 @@
-import './home_screen/home_screen.dart';
+import 'home_screen/home_screen.dart';
 
 const appRoutesNamespace = 'todo-app';
 
