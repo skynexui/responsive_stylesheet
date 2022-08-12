@@ -19,13 +19,13 @@ export type justifyContent =
       | "center"
       | "flex-start"
       | "flex-end"
-      | "spaceBetween"
-      | "spaceAround"
-      | "spaceEvenly"
+      | "space-between"
+      | "space-around"
+      | "space-evenly"
     >
   | "center"
   | "flex-start"
   | "flex-end"
-  | "spaceBetween"
-  | "spaceAround"
-  | "spaceEvenly";
+  | "space-between"
+  | "spacearound"
+  | "space-evenly";
