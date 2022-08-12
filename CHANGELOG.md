@@ -1,3 +1,10 @@
+## [1.10.3](https://github.com/skynexui/responsive_stylesheet/compare/v1.10.2...v1.10.3) (2022-08-12)
+
+
+### Bug Fixes
+
+* adjust typo in ts definition of js version ([74006c6](https://github.com/skynexui/responsive_stylesheet/commit/74006c67cd1eb4a26edecfc6d1111cdd4e31edbb))
+
 ## [1.10.2](https://github.com/skynexui/responsive_stylesheet/compare/v1.10.1...v1.10.2) (2022-08-06)
 
 
