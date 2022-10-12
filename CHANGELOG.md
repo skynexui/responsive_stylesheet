@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/skynexui/responsive_stylesheet/compare/v1.10.3...v1.11.0) (2022-10-12)
+
+
+### Features
+
+* moving out the repository to [@displaykit](https://github.com/displaykit) company ([b9733f1](https://github.com/skynexui/responsive_stylesheet/commit/b9733f173b7b6ea96958d019b4c148ef53238213))
+
 ## [1.10.3](https://github.com/skynexui/responsive_stylesheet/compare/v1.10.2...v1.10.3) (2022-08-12)
 
 
